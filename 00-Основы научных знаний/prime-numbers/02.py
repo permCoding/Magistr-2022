@@ -1,6 +1,6 @@
 results = []
 
-n = 10000
+n = 3000
 
 lst = [i for i in range(n+1)]
 
