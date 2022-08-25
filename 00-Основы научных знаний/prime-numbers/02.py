@@ -1,11 +1,11 @@
 results = []
 
-n = 3000
+n = 150000
 
 lst = [i for i in range(n+1)]
-
+lst[1] = 0
 step = 2
-while step <= n:
+while step*step <= n:
     i = step
     while lst[step] == 0 and i < n+1:
         i += 1
@@ -15,10 +15,10 @@ while step <= n:
         i += step
     step += 1
 
-for d in range(10):
+for d in range(n//1000):
     gl = d * 1000 + 1
     gr = (d+1) * 1000
-    results.append(len(list(filter(lambda x: x>0, lst[gl: gr+1])))-1)
+    results.append(len(list(filter(lambda x: x>0, lst[gl: gr+1]))))
 # results.append(len(lst) - lst.count(0))
 
 print(results)
