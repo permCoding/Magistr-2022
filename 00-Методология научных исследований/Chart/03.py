@@ -17,6 +17,7 @@ def func_C(lst_x):
 def func_D(lst_x):
     return -1. + np.log(lst_x) - 1/5*lst_x
 
+
 fig, axes = plt.subplots()
 axes.grid(True, linestyle='-.')
 axes.tick_params(labelcolor='r', labelsize='medium', width=3)
