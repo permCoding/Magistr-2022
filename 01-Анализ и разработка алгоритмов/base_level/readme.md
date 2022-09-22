@@ -1,5 +1,9 @@
 # Базовый уровень
 
+## Наши тренировки
+
+[Тема Циклы и Системы счисления](https://colab.research.google.com/drive/1CEyCRB6pP6UgDLDi-kjcT6sxNCK84Hxc?usp=sharing)  
+
 ## Программирование на Питоне  
 
 [Блокнот ТЕМА 01 - Синтаксис языка](https://colab.research.google.com/drive/1Lt59yQHjRePtOk7ZTOgK4tsLhvOJQvzc?usp=sharing)  
