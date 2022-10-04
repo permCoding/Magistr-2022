@@ -25,6 +25,7 @@ def sort_merge(lst):
 
 
 sys.setrecursionlimit(32000)
+
 count = 2000
 lst = [r(0, 1000000) for _ in range(count)]
 amount = [0, 0]
