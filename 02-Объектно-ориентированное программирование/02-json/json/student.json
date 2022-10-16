@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Красная Шапочка",
+    "email": "red@gmail.com",
+    "rate": 232,
+    "private": {
+      "gender": "female",
+      "age": 17  
+    }
+  },
+  {
+    "id": 2,
+    "name": "Серый Волк",
+    "email": "gray@mail.ru",
+    "rate": 205,
+    "private": {
+      "gender": "male",
+      "age": 37
+    }
+  },
+  {
+    "id": 3,
+    "name": "Охотник",
+    "email": "hunter@mail.ru",
+    "rate": 227,
+    "private": {
+      "gender": "male",
+      "age": 22
+    }
+  },
+  {
+    "id": 4,
+    "name": "Волк",
+    "email": "wolf@gmail.com",
+    "rate": 205,
+    "private": {
+      "gender": "male",
+      "age": 25
+    }
+  }  
+]
