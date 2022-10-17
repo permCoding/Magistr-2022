@@ -115,7 +115,10 @@
 
 ---  
 
-![](./prostie.jpg)  
+<details> 
+    <summary>Итоговая таблица из книги Великие математические задачи</summary>
+    ![](./prostie.jpg)  
+</details>
 
 ---  
 
