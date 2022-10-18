@@ -9,6 +9,7 @@ let ex01 = () => {
             console.log(a, b);
             return { 'div': Math.floor(a/b), 'mod': a%b };
         }
+        // return this;
     }
     
     const obj1 = new GetObject(7, 3);
@@ -62,5 +63,5 @@ let ex03 = () => {
 
 console.clear();
 // ex01();
-ex02();
+// ex02();
 ex03();
