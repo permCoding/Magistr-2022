@@ -5,9 +5,9 @@ const ex01 = () => {
     
     obj.x = 12
     obj.y = 10
+
     console.log(obj)
     console.table(obj)
-
     // delete obj.x
     // delete obj["x"]
     let key_del = "x"
