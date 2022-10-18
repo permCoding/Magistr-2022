@@ -23,8 +23,8 @@ const ex_01 = function () {
     console.log(`target => ${target.toString()}`);    
 }
 
-const ex_02 = (id) => {
-    source.id = 2801; // поле в объект можно добавить "на лету" так
+const ex_02 = (id = 0) => {
+    source.id = id; // поле в объект можно добавить "на лету" так
     console.log(source);
     console.log(target); // и оно будет доступно в "других" объектах
     
