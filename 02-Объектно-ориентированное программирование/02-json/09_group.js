@@ -24,13 +24,14 @@ function _sort() {
         .groupBy(names, x => x.length); // группируем в объект по длине
     let arr = _
         .zip(Object.keys(groups), Object.values(groups)); // собираем массив массивов
-
-    console.table(_(arr).orderBy([0], ['desc']).value()); // сортируем массив массивов
+    
+    console.log(_(arr).orderBy([0], ['desc']).value()); // сортируем массив массивов    
     
     let sorted_obj = _(groups) 
         .toPairs() // объект разбиваем на пары
-        .orderBy([0], ['asc']) // сортируем их по признаку
-        .fromPairs() // собираем объект из пар
+        .map(pair => [pair[0], _.orderBy(pair[1], [0], ['asc'])])
+        .orderBy([0], 'desc')
+        // .fromPairs() // собираем объект из пар
         .value();
     console.log(sorted_obj);
 }
