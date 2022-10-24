@@ -33,7 +33,9 @@ for (let name of names) {
 
 console.log("- ".repeat(9));
 
+console.log(orks);
 Ork.del_ork(orks, 0);
+console.log(orks);
 for (let item of orks.filter(x => x != undefined)) {
     item.show_info();
 }
