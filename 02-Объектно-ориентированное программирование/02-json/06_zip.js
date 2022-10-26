@@ -15,7 +15,7 @@ function _sort() {
 function _order() {
     let arr = _(colors)
         .zip(hex_names)
-        .orderBy([0], ['asc']) // можно по индексам
+        .orderBy([0], ['desc']) // можно по индексам
         .value();
     console.log(arr);
 }
@@ -62,5 +62,5 @@ console.clear();
 // _sort();
 // _order();
 // _order_2();
-// _order_3();
-_order_4();
+_order_3();
+// _order_4();
