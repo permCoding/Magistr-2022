@@ -37,15 +37,22 @@ function _nota_va(line) {
 
 /** нотация как в Питоне - возвращает массив */
 function _nota_js(line) {
-    let numbers = line
-        .split(' ')
-        .map(Number) // x => +x;
-    let res = _.filter(numbers, x => x & 1 > 0);
-    // let res = _(numbers) // нотация как в js
-    //     .filter(x => x & 1 > 0)
-    //     .sortBy()
-    //     .value();
-    console.log(res, _.isArray(res)? "массив":"генератор");
+    let res_py = 
+        _.sortBy(
+            _.filter(
+                _.map(line.split(' '), Number),
+                x => x & 1 > 0
+            )
+        );
+    console.log(res_py, _.isArray(res_py)? "массив":"генератор");
+    
+    let res_js = _(line)
+        .split(' ') // нотация как в js
+        .map(Number)
+        .filter(x => x & 1 > 0)
+        .sortBy()
+        .value();
+    console.log(res_js, _.isArray(res_js)? "массив":"генератор");
 }
 
 console.clear();

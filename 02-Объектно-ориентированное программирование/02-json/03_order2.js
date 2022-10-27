@@ -66,7 +66,6 @@ function _orderBy_2() {
 
 
 console.clear();
-console.log('\n'.repeat(3));
 
 // _sortBy_1();
 // _sortBy_2();

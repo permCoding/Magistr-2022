@@ -17,8 +17,11 @@ function _string() {
 
 /** разбор метода _.sortBy() + forEach */
 function _sort() {
-    const printItem = (item, index) => console.log(index, item);
+    
+    const printItem = (item, index) => console.log(index+1, item);
+
     let arr_lines = ['12', '8', '8.2', '8.3', '10'];
+
     _(arr_lines)
         .map(_.toNumber)
         .sortBy()
@@ -33,8 +36,9 @@ function _order() {
     let users = require('./json/users.json'); // читаем json
     let res = _(users)
         .filter(u => u.email.split('.').pop() === 'biz') // по домену biz
+        // .map(obj => { return { 'name': obj.name, 'email': obj.email}; })
         .map(obj => _.zipObject(['name', 'email'], [obj.name, obj.email]))
-        .orderBy(['name'], ['desc'])
+        .orderBy(['email'], ['asc'])
         .value();
     console.table(res);
 }

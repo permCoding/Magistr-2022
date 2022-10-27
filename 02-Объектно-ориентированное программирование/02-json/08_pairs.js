@@ -20,7 +20,7 @@ function ex_02() {
         ['gender', true]
     ];
     let person = _.fromPairs(pairs); // из массива пар в объект
-    console.log(JSON.stringify(person, null, 2));    
+    console.log(JSON.stringify(person, ['id','name','gender'], 2));    
 }
 
 function ex_03() {
@@ -70,10 +70,10 @@ function ex_05() { // массив собрать в объект
 
 console.clear();
 ex_01();
-// ex_02();
+ex_02();
 // ex_03();
 // ex_04();
 // ex_05();
 
-let arr = require('./json/mens.json')
-console.log(arr)
+// let arr = require('./json/mens.json')
+// console.log(arr)
