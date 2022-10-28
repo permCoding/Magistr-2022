@@ -37,6 +37,7 @@ function get_arr_of_objs_3_() {
         .zip(hex_names)
         .map(arr => _.zipObject(['clr', 'hex'], arr))
         .sortBy(a => a.clr)
+        .reverse()
         .value();
 }
 
@@ -45,7 +46,7 @@ let colors = ['red','green','yellow','orange'];
 let hex_names = ['#FF0000','#008000','#FFFF00','#FFA500'];
 console.log(_.zip(colors, hex_names)); // был массив массивов
 
-console.log(get_arr_of_objs_1()); // стал массив объектов
+// console.log(get_arr_of_objs_1()); // стал массив объектов
 // console.log(get_arr_of_objs_2());
 // console.log(get_arr_of_objs_3());
-// console.log(get_arr_of_objs_3_());
+console.log(get_arr_of_objs_3_());

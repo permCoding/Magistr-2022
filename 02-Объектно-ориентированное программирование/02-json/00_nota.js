@@ -3,6 +3,7 @@
  * npm install lodash || npm i lodash
  * documentation: https://lodash.com/docs/4.17.15
  */
+const { filter } = require('lodash');
 const _ = require('lodash');
 
 /** нотация lodash - возвращает генератор */
@@ -36,16 +37,22 @@ function _nota_va(line) {
 
 /** нотация как в Питоне - возвращает массив */
 function _nota_js(line) {
-    let numbers = line
-        .split(' ')
-        .map(Number) // x => +x
-        .sort((a,b)=>a-b);
-    let res = _.filter(numbers, x => x & 1 > 0);
-    console.log(res, _.isArray(res)? "массив":"генератор");
-    // 5 & 1 = ?
-    // 101
-    // 001
-    // 001
+    let res_py = 
+        _.sortBy(
+            _.filter(
+                _.map(line.split(' '), Number),
+                x => x & 1 > 0
+            )
+        );
+    console.log(res_py, _.isArray(res_py)? "массив":"генератор");
+    
+    let res_js = _(line)
+        .split(' ') // нотация как в js
+        .map(Number)
+        .filter(x => x & 1 > 0)
+        .sortBy()
+        .value();
+    console.log(res_js, _.isArray(res_js)? "массив":"генератор");
 }
 
 console.clear();

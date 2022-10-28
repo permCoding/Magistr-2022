@@ -54,7 +54,9 @@ function _sortBy_2() {
  * в двух нотациях  
  */
 function _orderBy_2() {
-    console.log(_.orderBy(users, ['name','age'], ['asc','desc']));
+    console.log(
+        _.orderBy(users, ['name','age'], ['asc','desc'])
+    );
     console.log(
         _(users)
             .orderBy(['name','age'], ['asc','desc'])
@@ -64,7 +66,6 @@ function _orderBy_2() {
 
 
 console.clear();
-console.log('\n'.repeat(3));
 
 // _sortBy_1();
 // _sortBy_2();

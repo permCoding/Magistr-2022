@@ -1,5 +1,14 @@
 {
+  "name": "02-json",
+  "version": "1.0.0",
+  "description": "lection",
+  "main": "00_nota.js",
   "dependencies": {
     "lodash": "^4.17.21"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "PIm-2022",
+  "license": "ISC"
 }
