@@ -1,0 +1,64 @@
+{
+  "title": "Super Hero",
+  "homeTown": "Metro City",
+  "formed": 2022,
+  "secretBase": "Super tower",
+  "active": true,
+  "members": [
+    {
+      "name": "Halk",
+      "age": 29,
+      "secretIdentity": "Green Baby",
+      "powers": [
+        "Immunity to poisons",
+        "Fire resistance",
+        "Immortality",
+        "Endurance"
+      ]
+    },
+    {
+      "name": "Molecule Man",
+      "age": 29,
+      "secretIdentity": "Dan Jukes",
+      "powers": [
+        "Radiation resistance",
+        "Immortality",
+        "Endurance"
+      ]
+    },
+    {
+      "name": "Madame Uppercut",
+      "age": 222,
+      "secretIdentity": "Jane Wilson",
+      "powers": [
+        "Immortality",
+        "Damage resistance",
+        "Superhuman reflexes"
+      ]
+    },
+    {
+      "name": "Eternal Flame",
+      "age": 222,
+      "secretIdentity": "Unknown",
+      "powers": [
+        "Immortality",
+        "Fire resistance",
+        "Inferno",
+        "Teleportation",
+        "Interdimensional travel"
+      ]
+    },
+    {
+      "name": "Venom",
+      "age": 29,
+      "secretIdentity": "Symbiote",
+      "powers": [
+        "Regeneration",
+        "Protecting the host from danger",
+        "Changing the form",
+        "Camouflage",
+        "Superspeed"
+      ]
+    }
+  ]
+}
