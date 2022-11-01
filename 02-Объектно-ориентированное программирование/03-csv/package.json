@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "csvjson": "^5.1.0",
+    "fast-csv": "^4.3.6",
+    "lodash": "^4.17.21",
+    "path": "^0.12.7"
+  }
+}
