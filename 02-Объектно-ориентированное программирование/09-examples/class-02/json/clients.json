@@ -61,21 +61,6 @@
         }
       },
       {
-        "id": "59765",
-        "isActive": true,
-        "age": 21,
-        "name": "Билли Айлиш",
-        "gender": "female",
-        "company": "EMERGENT",
-        "email": "billieeilish@emergent.com",
-        "phone": "+8 (831) 564-2190",
-        "address": {
-            "city": "Кунгур",
-            "street": "Пушкина",
-            "apartment": "22-10"
-        }
-      },
-      {
         "id": "59766",
         "isActive": false,
         "age": 42,
@@ -133,6 +118,21 @@
             "city": "Кунгур",
             "street": "Ленина",
             "apartment": "16-77"
+        }
+      },
+      {
+        "id": "59765",
+        "isActive": true,
+        "age": 21,
+        "name": "Билли Айлиш",
+        "gender": "female",
+        "company": "EMERGENT",
+        "email": "billieeilish@emergent.com",
+        "phone": "+8 (831) 564-2190",
+        "address": {
+            "city": "Кунгур",
+            "street": "Пушкина",
+            "apartment": "22-10"
         }
       }
     ]

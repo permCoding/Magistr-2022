@@ -7,7 +7,6 @@ let obj = new Example("./json/clients", "clients");
 obj.select("name", "age", "gender")
 
 // console.log(obj.sorted_test("age", "desc"));
-
 console.log(obj.sorted());
 
 // let fields = ["gender", "age", "name"];
