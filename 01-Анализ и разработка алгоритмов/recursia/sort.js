@@ -1,15 +1,12 @@
 const comparator = (a, b, fields, directs) => {
-    // 1 точка останова - должна возвращать ответ
-    // 2 шаг рекурсии - вызов функции с оставшимися пар-ми для сортировки
-    let n = fields.length;
+    let dict = { 'asc': +1, 'desc': -1 };
+    let d = dict[directs[0]];
     let f = fields[0];
-    let d = directs[0] === 'asc'? +1: -1;
-    if ((n===1) || (a[f] !== b[f])) {
-        return d * (a[f] > b[f]? +1: -1);
+    if ((fields.length === 1) || (a[f] !== b[f])) {
+        return d * (a[f] > b[f]? +1: -1); // 1 точка останова - должна возвращать ответ
     }
-    else {
-        return comparator(a, b, fields.slice(1,), directs.slice(1,));
-    }
+    // 2 шаг рекурсии - вызов функции с оставшимися пар-ми для сортировки
+    return comparator(a, b, fields.slice(1,), directs.slice(1,));
 }
 
 const orderBy = (fields, directs) => {
