@@ -1,7 +1,11 @@
 class Example {
     _arr = []; // массив объектов
     _tmp = [];
-    // надо сделать клон из _arr
+    // надо сделать клон из _arr и разместить его в _tmp
+    // и дальше работать с ним
+    // при каждом новом запросе от пользователя
+    // исходный массив брать из _arr и клонировать в _tmp
+    // это будет метод restore (рекурсивный)
     constructor(file_name, field) {
         this._json = require(file_name);
         if (field !== undefined) {
@@ -35,10 +39,19 @@ class Example {
     }
     select = (...fields) => {
         this._tmp = JSON.parse(JSON.stringify(this._arr, fields));
-        // fields
-        // WHERE
+        // SELECT fields
+        // WHERE - filtred 
         // ORDER BY ASC DESC
     }
+    /*
+    самостоятельно доделать методы
+    INSERT
+    UPDATE
+    DELETE
+
+    убрать все лишние, дублирующие методы
+    добавить сортировку рекурсивную по нескольким полям
+    */
 }
 
 module.exports = {
