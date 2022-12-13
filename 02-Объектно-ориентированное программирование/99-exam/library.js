@@ -1,4 +1,4 @@
-class Example {
+class Exam {
     _arr = [];  // исходный массив объектов из файла
     _tmp = [];  // его клон для хранения временных результатов
     constructor(file_name, field) {
@@ -28,5 +28,5 @@ class Example {
 }
 
 module.exports = {
-    Example
+    Exam
 }

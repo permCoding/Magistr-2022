@@ -1,6 +1,6 @@
-const { Example } = require("./library");
+const { Exam } = require("./library");
 
-let obj = new Example("./json/abiturs.json");
+let obj = new Exam("./json/abiturs.json");
 
 console.log(obj.select("lastName", "city", "rating"));
 
