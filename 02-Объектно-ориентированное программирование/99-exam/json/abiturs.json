@@ -1,0 +1,122 @@
+[
+    {
+        "id": "1",
+        "lastName": "Мишкин",
+        "rating": "217",
+        "gender": "1",
+        "birthDate": "2002-08-23",
+        "city": "Кунгур"
+    },
+    {
+        "id": "2",
+        "lastName": "Бортич",
+        "rating": "224",
+        "gender": "0",
+        "birthDate": "2002-06-03",
+        "city": "Лысьва"
+    },
+    {
+        "id": "3",
+        "lastName": "Деревянко",
+        "rating": "182",
+        "gender": "0",
+        "birthDate": "2002-02-20",
+        "city": "Оса"
+    },
+    {
+        "id": "4",
+        "lastName": "Столбова",
+        "rating": "194",
+        "gender": "0",
+        "birthDate": "2003-01-22",
+        "city": "Кунгур"
+    },
+    {
+        "id": "5",
+        "lastName": "Хомич",
+        "rating": "205",
+        "gender": "0",
+        "birthDate": "2002-04-23",
+        "city": "Кунгур"
+    },
+    {
+        "id": "6",
+        "lastName": "Круглов",
+        "rating": "191",
+        "gender": "1",
+        "birthDate": "2002-04-23",
+        "city": "Березники"
+    },
+    {
+        "id": "7",
+        "lastName": "Иванов",
+        "rating": "192",
+        "gender": "1",
+        "birthDate": "2002-05-17",
+        "city": "Кунгур"
+    },
+    {
+        "id": "8",
+        "lastName": "Петров",
+        "rating": "191",
+        "gender": "1",
+        "birthDate": "2002-11-25",
+        "city": "Кунгур"
+    },
+    {
+        "id": "9",
+        "lastName": "Сидоров",
+        "rating": "196",
+        "gender": "1",
+        "birthDate": "2004-01-20",
+        "city": "Кунгур"
+    },
+    {
+        "id": "10",
+        "lastName": "Капустин",
+        "rating": "196",
+        "gender": "1",
+        "birthDate": "2002-06-04",
+        "city": "Кунгур"
+    },
+    {
+        "id": "11",
+        "lastName": "Томатова",
+        "rating": "201",
+        "gender": "0",
+        "birthDate": "2003-04-16",
+        "city": "Кунгур"
+    },
+    {
+        "id": "12",
+        "lastName": "Ежова",
+        "rating": "214",
+        "gender": "0",
+        "birthDate": "2001-10-07",
+        "city": "Лысьва"
+    },
+    {
+        "id": "13",
+        "lastName": "Микова",
+        "rating": "222",
+        "gender": "0",
+        "birthDate": "2001-10-07",
+        "city": "Пермь"
+    },
+    {
+        "id": "14",
+        "lastName": "Мамин",
+        "rating": "199",
+        "gender": "1",
+        "birthDate": "2001-11-10",
+        "city": "Пермь"
+    },
+    {
+        "id": "15",
+        "lastName": "Комов",
+        "rating": "195",
+        "gender": "1",
+        "birthDate": "2002-01-17",
+        "city": "Пермь"
+    }
+]
