@@ -7,7 +7,7 @@ function csv_to_json(filename, del = ',') {
 	return csvjson.toObject(textCSV, { delimiter: del })
 }
 
-let filename = './csv/input4.csv'
+let filename = './csv/input30.csv'
 let arr = csv_to_json(filename)
 let json = JSON.stringify(arr, null, 4)
 // console.log(json)

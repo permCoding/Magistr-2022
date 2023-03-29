@@ -1,20 +1,20 @@
 // recursive algorithm
 
-const get_combo = (combo, deep) => {
-    if (deep === n) {
+const get_combs = (combo, deep) => {
+    if (deep === arr.length) {
         combs.push(combo.slice())
     }
     else {
         combo.push(arr[deep])
-        get_combo(combo, deep+1)
+        get_combs(combo, deep+1)
         combo.pop()
-        get_combo(combo, deep+1)
+        get_combs(combo, deep+1)
     }
 }
 
 let arr = [1, 2, 3, 4]
-let n = arr.length, combs = []
-get_combo([], 0)
-console.log(
-    combs.sort((a,b) => a.length-b.length)
-)
+let combs = []
+get_combs([], 0)
+combs
+    .sort((a,b) => a.length-b.length)
+    .forEach(e => console.log(e))

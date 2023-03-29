@@ -26,6 +26,14 @@
 ]
 ```
 
+```txt
+input4  max_w = 100 => max_p = 150
+input6  max_w = 1500 => max_p = 265
+input20  max_w = 100 => max_p = 350
+input25  max_w = 150 => max_p = 455
+input30  max_w = 150 => max_p = 500
+```
+
 ---  
 
 ## Область Парето-оптимальных решений  
