@@ -4,13 +4,10 @@ const get_branches = (max_w, arr) => {
     const get_combo = (combo, deep) => {
 
         cur_w = combo.reduce((acc, cur) => acc+cur.w, 0)
-
-        u1 = cur_w > max_w
-        if (u1) return
+        if (cur_w > max_w) return
 
         // тут ещё можно добавить проверку на рейтинг этой ветви
-
-        i += 1
+        // доработать самостоятельно
 
         if (deep === arr.length) {
             cur_p = combo.reduce((acc, cur) => acc+cur.p, 0)
@@ -25,10 +22,9 @@ const get_branches = (max_w, arr) => {
             get_combo(combo, deep+1)
         }
     }
-    i = 0
+
     let max_p = 0
     get_combo([], 0)
-    console.log(i)
     return max_p
 }
 

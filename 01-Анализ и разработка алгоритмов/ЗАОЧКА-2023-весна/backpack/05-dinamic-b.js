@@ -1,7 +1,7 @@
 // dinamic algorithm
 
 const get_dinamic = (max_w, arr) => {
-    arr.sort((a,b) => a.w > b.w? +1: -1)
+    arr.sort((a,b) => a.w > b.w? +1: -1) // это можно исправить дополнительным условием
 
     let n = arr.length, tab = []
 
