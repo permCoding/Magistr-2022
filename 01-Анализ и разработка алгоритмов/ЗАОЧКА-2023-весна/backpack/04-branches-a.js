@@ -7,7 +7,7 @@ const get_branches = (max_w, arr) => {
         if (cur_w > max_w) return
 
         // тут ещё можно добавить проверку на рейтинг этой ветви
-        // доработать самостоятельно
+        // доработать самостоятельно - 1
 
         if (deep === arr.length) {
             cur_p = combo.reduce((acc, cur) => acc+cur.p, 0)
@@ -33,7 +33,14 @@ let prods = require('./json/input4.json')
 let max_w = 100
 
 prods.map(obj => { obj.id=+obj.id, obj.w=+obj.w, obj.p=+obj.p })
-prods.sort((a,b) => a.p/a.w>b.p/b.w? -1: +1)
+
+// prods.sort((a,b) => a.p/a.w>b.p/b.w? -1: +1)
+// доработать самостоятельно - 2
+// если убрать эту сортировку, то перестанет работать
+// нужно добавить условие в методе get_branches
+// когда для v1 и v2 ценность одинаковая, то выбрать
+// меньшую по весу
+
 console.clear()
 prods.forEach(obj => console.log(obj))
 prods.push

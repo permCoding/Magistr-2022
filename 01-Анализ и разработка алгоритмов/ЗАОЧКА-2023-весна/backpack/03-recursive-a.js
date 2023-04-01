@@ -2,7 +2,9 @@
 
 const get_combs = (combo, deep) => {
     if (deep === arr.length) {
-        combs.push(combo.slice())
+        // combs.push(combo) // ref
+        // combs.push(combo.slice())
+        combs.push([...combo])
     }
     else {
         combo.push(arr[deep])

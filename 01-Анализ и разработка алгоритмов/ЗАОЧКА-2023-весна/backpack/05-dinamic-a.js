@@ -4,8 +4,8 @@ const get_dinamic = (max_w, arr) => {
     let n = arr.length, tab = []
 
     for (let row=0; row<=max_w; row++) { // формируем таблицу
-        tr = [...Array(n).keys()]
-            .map(_ => { return {'w':0,'p':0} })
+        // tr = [...Array(n).keys()].map(_ => { return {'w':0,'p':0} })
+        tr = new Array(n).fill({'w':0,'p':0})
         tab.push(tr) // одна строка в таблице
     }
 
