@@ -1,10 +1,11 @@
 // recursive algorithm
-
+// ассимптотика сложности этого алгоритма
+// n/2 * 2^n
 const get_combs = (combo, deep) => {
     if (deep === arr.length) {
         // combs.push(combo) // ref
-        // combs.push(combo.slice())
-        combs.push([...combo])
+        combs.push(combo.slice())
+        // combs.push([...combo])
     }
     else {
         combo.push(arr[deep])

@@ -6,8 +6,9 @@ const get_branches = (max_w, arr) => {
         cur_w = combo.reduce((acc, cur) => acc+cur.w, 0)
         if (cur_w > max_w) return
 
-        // тут ещё можно добавить проверку на рейтинг этой ветви
-        // доработать самостоятельно - 1
+        // ЗАДАНИЕ 3
+        // добавить проверку на рейтинг этой ветви
+        // по относительной стоимости 
 
         if (deep === arr.length) {
             cur_p = combo.reduce((acc, cur) => acc+cur.p, 0)
@@ -26,10 +27,22 @@ const get_branches = (max_w, arr) => {
     let max_p = 0
     get_combo([], 0)
     return max_p
+    /* ЗАДАНИЕ 4 - привести return к такому виду:
+        {
+            cur_w: 1212,
+            cur_p: 250,
+            items: [
+                { id: 3, w: 198, p: 100 },
+                { id: 1, w: 200, p: 40 },
+                { id: 2, w: 314, p: 50 },
+                { id: 4, w: 500, p: 60 }
+            ]
+        }
+    */
 }
 
 
-let prods = require('./json/input4.json')
+let prods = require('./json/input20.json')
 let max_w = 100
 
 prods.map(obj => { obj.id=+obj.id, obj.w=+obj.w, obj.p=+obj.p })
@@ -42,8 +55,8 @@ prods.map(obj => { obj.id=+obj.id, obj.w=+obj.w, obj.p=+obj.p })
 // меньшую по весу
 
 console.clear()
-prods.forEach(obj => console.log(obj))
-prods.push
+// prods.forEach(obj => console.log(obj))
+
 console.log('branches algorithm')
 
 let solver = get_branches(max_w, prods)

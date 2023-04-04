@@ -1,5 +1,6 @@
 // greedy algorithm
-
+// ассимптотика сложности этого алгоритма
+// n * log(n) + n
 const get_greedy = (max_w, prods) => {
     let cur_w = 0, cur_p = 0
     let i = 0 // по какой индекс набрали предметов
@@ -7,7 +8,7 @@ const get_greedy = (max_w, prods) => {
     // отсортировать по убыванию
     prods
         .sort((a,b) => a.p/a.w > b.p/b.w? -1: +1)
-    while (true) {
+    while (true) { // ЗАДАНИЕ 1 - перенести условие выхода из цикла в шапку
         if (cur_w + prods[i].w > max_w) break
         cur_w += prods[i].w
         cur_p += prods[i].p

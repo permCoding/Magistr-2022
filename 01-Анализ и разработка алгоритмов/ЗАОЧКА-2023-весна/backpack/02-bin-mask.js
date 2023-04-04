@@ -1,5 +1,6 @@
 // bin mask algorithm
-
+// ассимптотика сложности этого алгоритма
+// n * 2^n
 const get_bin_mask = (max_w, prods) => {
     let res_w = 0, res_p = 0
     let combo = 0 // тут будет индекс лучшей комбинации
@@ -24,7 +25,15 @@ const get_bin_mask = (max_w, prods) => {
         'res_w': res_w,
         'res_p': res_p,
         'combo': combo.toString(2).split('').reverse().join('') // это доработать
-    }
+    }    
+    /* ЗАДАНИЕ 2 - привести к такому виду:
+        combo: [
+            { id: 3, w: 198, p: 100 },        
+            { id: 1, w: 200, p: 40 },
+            { id: 2, w: 314, p: 50 },         r
+            { id: 4, w: 500, p: 60 }          в
+        ]
+    */
 }
 
 
