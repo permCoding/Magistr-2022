@@ -1,17 +1,18 @@
 // recursive algorithm
 // тут просто пример рекурсивной функции
 // 
-const get_arr = (up) => {
-    if (up == 0) {
-        //
+const get_sum_even = (num) => {
+    if (num == 0) {
+        return 0
+    }
+    if (num%2 == 0) {
+        return get_sum_even(num-1) + num
     }
     else {
-        arr.push(up)
-        get_arr(--up)
+        return get_sum_even(num-1)
     }
+    
 }
 
 console.clear()
-let arr = [], up = 10
-get_arr(up)
-console.log(arr)
+console.log(get_sum_even(9))

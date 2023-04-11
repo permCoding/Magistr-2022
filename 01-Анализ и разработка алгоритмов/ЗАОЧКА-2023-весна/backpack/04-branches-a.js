@@ -14,6 +14,7 @@ const get_branches = (max_w, arr) => {
             cur_p = combo.reduce((acc, cur) => acc+cur.p, 0)
             if ((cur_w<=max_w) && (cur_p>=max_p)) {
                 max_p = cur_p
+                // и запоминаем комбинацию и её вес
             }
         }
         else {
@@ -42,7 +43,7 @@ const get_branches = (max_w, arr) => {
 }
 
 
-let prods = require('./json/input20.json')
+let prods = require('./json/input4.json')
 let max_w = 100
 
 prods.map(obj => { obj.id=+obj.id, obj.w=+obj.w, obj.p=+obj.p })
