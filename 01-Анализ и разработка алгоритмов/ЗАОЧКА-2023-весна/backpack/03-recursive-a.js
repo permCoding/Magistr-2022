@@ -3,9 +3,10 @@
 // n/2 * 2^n
 const get_combs = (combo, deep) => {
     if (deep === arr.length) {
+        // console.log(combo)
         // combs.push(combo) // ref
-        combs.push(combo.slice())
-        // combs.push([...combo])
+        // combs.push(combo.slice())
+        combs.push([...combo])
     }
     else {
         combo.push(arr[deep])
@@ -15,9 +16,9 @@ const get_combs = (combo, deep) => {
     }
 }
 
-let arr = [1, 2, 3, 4]
+let arr = ['a', 'b', 'c', 'd']
 let combs = []
 get_combs([], 0)
 combs
-    .sort((a,b) => a.length-b.length)
+    // .sort((a,b) => a.length-b.length)
     .forEach(e => console.log(e))

@@ -1,15 +1,15 @@
 // recursive algorithm
 // тут просто пример рекурсивной функции
 // 
-const get_bin = (dec) => {
-    if (dec === 0) {
-        return '0'
+const get_base = (dec, base) => {
+    if (dec < base) {
+        return dec.toString()
     }
     else {
-        return get_bin(Math.floor(dec/2)) + (dec%2).toString()
+        return get_base(Math.floor(dec/base), base) + (dec%base).toString()
     }
 }
 
 console.clear()
 let dec = 19
-console.log(get_bin(dec))
+console.log(get_base(dec, 2))

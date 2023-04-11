@@ -6,7 +6,7 @@ const get_branches = (max_w, arr) => {
         cur_w = combo.reduce((acc, cur) => acc+cur.w, 0)
         if (cur_w > max_w) return
 
-        // ЗАДАНИЕ 3
+        // ЗАДАНИЕ 4
         // добавить проверку на рейтинг этой ветви
         // по относительной стоимости 
 
@@ -28,7 +28,7 @@ const get_branches = (max_w, arr) => {
     let max_p = 0
     get_combo([], 0)
     return max_p
-    /* ЗАДАНИЕ 4 - привести return к такому виду:
+    /* ЗАДАНИЕ 5 - привести return к такому виду:
         {
             cur_w: 1212,
             cur_p: 250,

@@ -10,9 +10,8 @@ const get_sum_even = (num) => {
     }
     else {
         return get_sum_even(num-1)
-    }
-    
+    } 
 }
 
 console.clear()
-console.log(get_sum_even(9))
+console.log(get_sum_even(2))
