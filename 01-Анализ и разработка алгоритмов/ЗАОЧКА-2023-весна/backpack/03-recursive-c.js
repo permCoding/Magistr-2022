@@ -16,6 +16,7 @@ const get_recursive = (max_w, arr) => {
     
     let combs = []
     get_combs([], 0)
+    // кто захочет - можно это упростить
     let filtred = combs
         .map(combo => { 
             return {
@@ -27,6 +28,9 @@ const get_recursive = (max_w, arr) => {
     let max_combo = filtred
         // .reduce((acc,cur) => acc.cur_p>cur.cur_p? acc: cur, filtred[0])
         .sort((a,b) => a.cur_p > b.cur_p? -1: +1)[0]
+    // ЗАДАНИЕ 3
+    // доработать - убрать ненужную сортировку по убыванию
+    // а сделать через функцию max
     return max_combo
 }
 

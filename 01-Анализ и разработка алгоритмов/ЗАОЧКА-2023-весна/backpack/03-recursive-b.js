@@ -20,9 +20,15 @@ const get_recursive = (arr) => {
 }
 
 
-let prods = require('./json/input4.json')
+let prods = require('./json/input6.json')
 
-prods.map(obj => { obj.id=+obj.id, obj.w=+obj.w, obj.p=+obj.p })
+prods.map(obj => 
+    { 
+        obj.id=+obj.id, 
+        obj.w=+obj.w, 
+        obj.p=+obj.p 
+    }
+)
 
 console.clear()
 console.log('all cominations')
