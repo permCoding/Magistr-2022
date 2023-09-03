@@ -1,11 +1,13 @@
-# Magistr-2022
+# Magistr-2022  
+
+Наборы 2022 и 2023 годов  
 
 **Магистратура**  
 
 **Руководитель БЕЛЯКОВ Андрей Юрьевич**  
 к.т.н, доцент, доцент кафедры ИТиПИ  
 email: belyakov@pgatu.ru  
-[![telegram](https://pcoding.ru/ico/telegram.png)](https://t.me/AndreyPerm)  
+[telegram](https://t.me/AndreyPerm)  
 [Кабинет для онлайн занятий](https://bbb6.psaa.ru/b/cxy-tmy-6rl-vyv)  
 
 Направление подготовки - 09.04.03 Прикладная информатика  
