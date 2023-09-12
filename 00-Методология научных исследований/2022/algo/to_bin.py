@@ -1,4 +1,4 @@
-from utils import clear
+from utils import clear, get_limit
 
 
 def to_bin(dec):
@@ -11,3 +11,4 @@ def to_bin(dec):
 clear()
 num = 11
 print(to_bin(num))
+print(get_limit())
