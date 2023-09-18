@@ -12,7 +12,8 @@ const get_pi_step = (count) => {
     }
 }
 
-get_pi_step(2_000_000_000+1)
+console.clear()
+get_pi_step(1_000_000_000+1)
 
 
 /*
