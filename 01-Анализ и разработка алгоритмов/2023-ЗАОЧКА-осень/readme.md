@@ -42,6 +42,8 @@
 
 ### ЗАДАЧИ для лабораторных занятий: написать программную реализацию алгоритма поиска числа  
 
+[Google-board по этой теме](https://jamboard.google.com/d/1vtwRSDglO_TcvXbpGJEq9rlKMU_sOyvbBmXsc76kkY8/edit?usp=sharing)  
+
 ```txt
 a: линейно 
 b: бинарный поиск
