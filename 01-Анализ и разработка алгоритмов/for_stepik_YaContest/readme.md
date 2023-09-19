@@ -28,9 +28,9 @@
 ---  
 
 > ЗАДАЧА (это пример):  
-> на вход в программу подаётся одна строка
-> в строке через пробел записаны два натуральных числа
-> найти сумму чисел
+> на вход в программу подаётся одна строка  
+> в строке через пробел записаны два натуральных числа  
+> найти сумму чисел  
 
 РЕШЕНИЯ (возможные варианты оформления кода):  
 
@@ -110,6 +110,58 @@ class Program {
                 .Select(int.Parse)
                 .Aggregate((x,y) => x + y)
         );
+    }
+}
+```
+
+```java
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+    Scanner scan = new Scanner(System.in);
+    String[] items = scan.nextLine().split(" ");
+    int a = Integer.parseInt(items[0]);
+    int b = Integer.parseInt(items[1]);
+    System.out.println(a + b);
+    scan.close();
+  }
+}
+```
+
+```java
+import java.util.Scanner;
+import java.util.Arrays;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        String[] items = scan.nextLine().split(" ");
+        int result = Arrays
+            .stream(items)
+            .mapToInt(Integer::parseInt)
+            .sum();
+        System.out.println(result);
+    }
+}
+```
+
+---  
+
+> ЗАДАЧА (это другой пример):  
+> На вход подаются две строки,  
+> в каждой целое число в диапазоне от 1 до 10000 включительно.  
+> Найдите сумму этих чисел.  
+
+```java
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        System.out.println(a + b);
     }
 }
 ```
