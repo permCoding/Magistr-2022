@@ -6,7 +6,7 @@
 
 **Руководитель БЕЛЯКОВ Андрей Юрьевич**  
 к.т.н, доцент, доцент кафедры ИТиПИ  
-email: belyakov@pgatu.ru  
+email: belyakov.au@ya.ru  
 [telegram](https://t.me/AndreyPerm)  
 [Кабинет для онлайн занятий](https://bbb6.psaa.ru/b/cxy-tmy-6rl-vyv)  
 [Анкетирование, тестирование EXAM](http://exam.1gb.ru/)  

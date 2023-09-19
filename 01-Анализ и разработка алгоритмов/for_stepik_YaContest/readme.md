@@ -32,12 +32,17 @@
 > в строке через пробел записаны два натуральных числа
 > найти сумму чисел
 
-РЕШЕНИЯ:  
+РЕШЕНИЯ (возможные варианты оформления кода):  
 
 ```py
 # py
 a, b = map(int, input().split())
 print(a + b)
+```
+
+```py
+# py
+print(sum(map(int, input().split())))
 ```
 
 ```js
@@ -57,10 +62,27 @@ rl
 });
 ```
 
+```js
+// js
+const rl = require('readline').createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+
+let lines = []; // массив для хранения считываемых строк
+
+rl.on('line', line => lines.push(line)); // считать все строки в массив
+
+rl.on('close', () => { // после окончания считывания обработать массив
+    console.log(
+        lines[0].split(' ').map(x => +x).reduce((a,b) => a+b)
+    );
+});
+```
+
 ```cs
 // cs
 using System;
-// using System.Linq;
 
 class MainClass {
     public static void Main (string[] args) {
@@ -70,6 +92,24 @@ class MainClass {
         int a = int.Parse(arr[0]);
         int b = int.Parse(arr[1]);
         Console.WriteLine(a + b);
+    }
+}
+```
+
+```cs
+// cs
+using System;
+using System.Linq;
+
+class Program {
+    public static void Main (string[] args) {
+        Console.WriteLine(
+            Console
+                .ReadLine()
+                .Split(' ')
+                .Select(int.Parse)
+                .Aggregate((x,y) => x + y)
+        );
     }
 }
 ```
