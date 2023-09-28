@@ -22,7 +22,7 @@ def get_tree():
     return tree
 
 
-def find_in_tree(node, finder_elm, deep=0):
+def find_in_tree(node, finder_elm, deep=1):
     if node:  # node != None
         if finder_elm == node["key"]:
             return (True, deep)

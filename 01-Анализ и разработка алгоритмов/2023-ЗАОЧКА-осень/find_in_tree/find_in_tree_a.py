@@ -2,6 +2,7 @@ from os import system
 
 
 def get_tree():
+    # сначала перемешать
     node5 = {
         "key": 5,
         "left": None,
@@ -27,9 +28,8 @@ def get_tree():
 
 def find_in_tree(node, finder_elm):
     if node:  # node != None
-        if finder_elm == node["key"]:
-            return True
-        elif finder_elm < node["key"]:
+        if finder_elm == node["key"]: return True
+        if finder_elm < node["key"]:
             return find_in_tree(node["left"], finder_elm)
         else:
             return find_in_tree(node["right"], finder_elm)
