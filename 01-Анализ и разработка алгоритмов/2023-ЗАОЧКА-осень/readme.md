@@ -29,6 +29,7 @@
 
 ## 3. ЗАДАЧИ для лабораторных занятий  
 
+[Видео-запись занятия про поиск - линейный, бинарный, в дереве](https://bbb6.psaa.ru/playback/presentation/2.3/c53ddb2862a4beb89e00b931c76ae39e924c3c35-1695908720167)  
 [Google-board по этой теме](https://jamboard.google.com/d/1vtwRSDglO_TcvXbpGJEq9rlKMU_sOyvbBmXsc76kkY8/edit?usp=sharing)  
 
 ### 3.1. Написать программную реализацию алгоритма поиска числа  
