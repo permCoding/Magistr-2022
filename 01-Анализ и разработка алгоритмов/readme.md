@@ -4,11 +4,13 @@
 
 ## Алгоритмы сортировки  
 
-[Блокнот - Алгоритмы поиска](https://jamboard.google.com/d/1vtwRSDglO_TcvXbpGJEq9rlKMU_sOyvbBmXsc76kkY8/edit?usp=sharing)  
+[Блокнот 1 - Ассимптотики](https://colab.research.google.com/drive/1Cwn_ZQjUEmln24_cfNLlTJ9AF8bZ0OOX?usp=sharing)  
+
+[Доска для рисования 2023 - Алгоритмы поиска](https://jamboard.google.com/d/1vtwRSDglO_TcvXbpGJEq9rlKMU_sOyvbBmXsc76kkY8/edit?usp=sharing)  
+
+[Доска для рисования 2022 - Алгоритмы поиска](https://jamboard.google.com/d/1vtwRSDglO_TcvXbpGJEq9rlKMU_sOyvbBmXsc76kkY8/edit?usp=sharing)  
 
 [Схемы алгоритмов](https://jamboard.google.com/d/1olktw4v8ZJbPNJQAhofzNWkwG8RRgzYtAhgQvSSJM4o/edit?usp=sharing)  
-
-[Блокнот 1 - Ассимптотики](https://colab.research.google.com/drive/1Cwn_ZQjUEmln24_cfNLlTJ9AF8bZ0OOX?usp=sharing)  
 
 Найти файл со словами русского языка и подготовить задачу по нему...  
 
