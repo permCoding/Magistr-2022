@@ -38,13 +38,14 @@ const insertData = (count=100_000) => {
 		db.run("begin transaction")
 		for (var i = 0; i < count; i++) {
 			db.run(query, getRandomName(), getRandomRate())
-			if (i%100_000==0) {
-				db.run("commit")
-				db.run("begin transaction")	
-			}
+			// if (i%100_000==0) {
+			// 	db.run("commit")
+			// 	db.run("begin transaction")	
+			// }
 		}
 		db.run("commit")
 	})
+	db.close()
 }
 
 const createIndex = () => {
@@ -71,9 +72,9 @@ const select = () => {
 	db.close()
 }
 
-createTable()
+// createTable()
 // deleteTable()
-// insertData(100_000)
+insertData(10_000)
 // createIndex()
 // deleteIndex()
 
@@ -81,11 +82,14 @@ createTable()
 
 /*
 
-100_000 records - 2,0Mb - without index - 30ms-DBBrowser - 27ms-Node
-100_000 records - 3,6Mb - with___ index - 06ms-DBBrowser - 06ms-Node
+100_000 records - 2,0Mb - without index - 30ms-DBBrowser - 42ms-Node
+100_000 records - 3,6Mb - with___ index - 06ms-DBBrowser - 15ms-Node
 
 200_000 records - 3,9Mb - without index - 42ms-DBBrowser - 35ms-Node
 200_000 records - 7,2Mb - with___ index - 04ms-DBBrowser - 05ms-Node
 
+подумать и предположить
+на основании чего должен принимать решение разработчик
+по поводу выбора какие столбцы индексировать
 зависит от объёма, формы запроса, вида данных
 */
