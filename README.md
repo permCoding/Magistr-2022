@@ -8,8 +8,10 @@
 к.т.н, доцент, доцент кафедры ИТиПИ  
 email: belyakov.au@ya.ru  
 [telegram](https://t.me/AndreyPerm)  
-[Кабинет для онлайн занятий](https://bbb6.psaa.ru/b/cxy-tmy-6rl-vyv)  
+[Кабинет для онлайн занятий bbb](https://bbb.psaa.ru/rooms/gpm-vn9-df4-qfg/join)  
+[Кабинет для онлайн занятий bbb6](https://bbb6.psaa.ru/b/cxy-tmy-6rl-vyv)  
 [Анкетирование, тестирование EXAM](http://exam.1gb.ru/)  
+[Задачи на Stepik`е](https://stepik.org/course/82800/syllabus)  
 
 Направление подготовки - 09.04.03 Прикладная информатика  
 Направленность (профиль) - Программирование сложных информационных систем  
