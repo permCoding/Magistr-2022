@@ -1,5 +1,7 @@
 # Анализ алгоритмов
 
+[Рейтинг ПИм-1 2023](https://docs.google.com/spreadsheets/d/1VUNMgV9Mk57zTohcsL_T9XbqyR1N8YigGRILlnrxdUQ/edit?usp=sharing)  
+
 ## Анализ сложности алгоритмов
 
 ## Алгоритмы сортировки  
