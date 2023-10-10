@@ -20,26 +20,16 @@ def get_tree():
 def find_in_tree(node, finder_elm):
     if node:  # node != None
         if finder_elm == node.key:
-            return (True)
+            return True
         elif finder_elm < node.key:
             return find_in_tree(node.left, finder_elm)
         else:
             return find_in_tree(node.right, finder_elm)
     else:
-        return (False)
+        return False
 
 
 tree = get_tree()  # [3, 4, 5, 7]
 check_elements = [3, 5, 8, 4, 7, 6, 2]
 for elm in check_elements:
     print(f"elm = {elm} => {find_in_tree(tree, elm)}")
-
-"""
-Две задачи:
-1) написать функцию построения дерева поиска
-2) подсчитать среднее количество шагов для поиска элементов в дереве
-- тут нужно принять во внимание, что дерево не будет идеально сбалансированным
-- вместо балансировки используется метод случайного наполнения дерева
-- оценить разницу между в среднем кол-ве шагов между сбалансированным деревом
-  и построенным случайным образом
-"""
