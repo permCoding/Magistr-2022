@@ -1,0 +1,77 @@
+[
+    {
+        "id": "59761",
+        "isActive": true,
+        "age": 36,
+        "name": "Кошмар Кошмаров",
+        "gender": "male",
+        "company": "CEDWARD",
+        "email": "koshma@cedward.com",
+        "phone": "+8 (890) 543-2508",
+        "address": {
+            "city": "Кунгур",
+            "street": "Ленина",
+            "apartment": "2-21"
+        }
+    },
+    {
+        "id": "59763",
+        "isActive": true,
+        "age": 30,
+        "name": "Просто Чел",
+        "gender": "male",
+        "company": "ORGANICA",
+        "email": "men@organica.com",
+        "phone": "+8 (802) 409-3360",
+        "address": {
+            "city": "Соликамск",
+            "street": "Пушкина",
+            "apartment": "5-47"
+        }
+    },
+    {
+        "id": "59764",
+        "isActive": true,
+        "age": 35,
+        "name": "Тот самый",
+        "gender": "male",
+        "company": "CEDWARD",
+        "email": "this@cedward.com",
+        "phone": "+8 (880) 703-5204",
+        "address": {
+            "city": "Кунгур",
+            "street": "Шишкина",
+            "apartment": "6-33"
+        }
+    },
+    {
+        "id": "59766",
+        "isActive": false,
+        "age": 42,
+        "name": "Блез Паскаль",
+        "gender": "male",
+        "company": "ORGANICA",
+        "email": "pascal@organica.com",
+        "phone": "+8 (680) 541-4260",
+        "address": {
+            "city": "Соликамск",
+            "street": "Медовая",
+            "apartment": "32-27"
+        }
+    },
+    {
+        "id": "59767",
+        "isActive": true,
+        "age": 37,
+        "name": "Джек Дорси",
+        "gender": "male",
+        "company": "twitter",
+        "email": "jack@twitter.com",
+        "phone": "+8 (882) 441-3367",
+        "address": {
+            "city": "Кунгур",
+            "street": "Пушкина",
+            "apartment": "10-36"
+        }
+    }
+]
