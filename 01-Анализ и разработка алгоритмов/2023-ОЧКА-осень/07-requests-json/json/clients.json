@@ -1,0 +1,47 @@
+[
+    {
+        "id": "59766",
+        "isActive": false,
+        "age": 42,
+        "name": "Блез Паскаль",
+        "gender": "male",
+        "company": "ORGANICA",
+        "email": "pascal@organica.com",
+        "phone": "+8 (680) 541-4260",
+        "address": {
+            "city": "Соликамск",
+            "street": "Медовая",
+            "apartment": "32-27"
+        }
+    },
+    {
+        "id": "59770",
+        "isActive": true,
+        "age": 42,
+        "name": "Компот Киселев",
+        "gender": "male",
+        "company": "GreenDail",
+        "email": "green@gmail.com",
+        "phone": "+8 (822) 513-7532",
+        "address": {
+            "city": "Кунгур",
+            "street": "Ленина",
+            "apartment": "16-52"
+        }
+    },
+    {
+        "id": "59767",
+        "isActive": true,
+        "age": 37,
+        "name": "Джек Дорси",
+        "gender": "male",
+        "company": "twitter",
+        "email": "jack@twitter.com",
+        "phone": "+8 (882) 441-3367",
+        "address": {
+            "city": "Кунгур",
+            "street": "Пушкина",
+            "apartment": "10-36"
+        }
+    }
+]

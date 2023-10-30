@@ -1,0 +1,4 @@
+IdDirect;NameDirect;MinBall;Limit
+1;ПИнб;210;15
+2;ПИб;185;10
+3;ИСб;200;12

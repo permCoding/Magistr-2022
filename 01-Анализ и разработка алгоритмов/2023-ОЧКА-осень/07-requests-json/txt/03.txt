@@ -1,0 +1,14 @@
+Python
+Ruby
+C++
+Perl
+Scala
+Go
+Swift
+Java
+C#
+SQL
+JavaScript
+Ada
+Pascal
+Basic

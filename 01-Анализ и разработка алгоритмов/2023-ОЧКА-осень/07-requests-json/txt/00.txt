@@ -1,0 +1,20 @@
+12,56% Java
+1,16% Ruby
+6,94% C++
+1,08% Assembly language
+3,97% Visual Basic
+1,12% MATLAB
+2,14% JavaScript
+2,09% PHP
+1,99% R
+1,57% SQL
+1,43% Perl
+1,23% Groovy
+11,28% Python
+1,16% Go
+16,95% C
+1,09% Swift
+4,16% C#
+0,86% Objective-C
+0,77% Classic Visual Basic
+0,76% PL/SQL
