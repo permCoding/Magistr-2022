@@ -9,5 +9,6 @@ def get_lines_from_url(url):
 
 
 url = "https://pcoding.ru/txt/labrab04-1.txt"
+# url = "http://rcoding.1gb.ru/txt?filename=labrab04-1.txt"
 lines = get_lines_from_url(url)
 print(lines)
