@@ -14,8 +14,6 @@
 
 [Схемы алгоритмов](https://jamboard.google.com/d/1olktw4v8ZJbPNJQAhofzNWkwG8RRgzYtAhgQvSSJM4o/edit?usp=sharing)  
 
-Найти файл со словами русского языка и подготовить задачу по нему...  
-
 ---  
 
 **Практические вопросы:**  
