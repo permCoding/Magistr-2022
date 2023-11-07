@@ -10,15 +10,20 @@ html = response.text
 
 
 soup = BeautifulSoup(html, "html.parser")
-curr = soup \
-    .find('div', { 'class': 'current_data' }) \
-    .find('div', { 'class': 'grid precip' }) \
-    .find('div', { 'class': 'temperature' })
+tabs = soup \
+    .find('div', { 'class': 'forecast' }) \
+    .find_all('div', { 'class': 'forecast-table' })
 
-temp = curr.text.strip()
+days = []
+for tab in tabs:
+    lst = tab.find_all('div', class_="table-row-day")
+    days.extend(lst)
 
-print('Текущая температура в Перми:', temp)
-
+for day in days:
+    cell = day.find('div', class_="table-cell-day")
+    divs = cell.find_all('div')
+    lst = [item.text for item in divs]
+    print("\t".join(lst))
 
 '''
 <div class="temperature tooltip" title="Текущая температура в Перми: -17.1°C .. -16°C">-17°C</div>
