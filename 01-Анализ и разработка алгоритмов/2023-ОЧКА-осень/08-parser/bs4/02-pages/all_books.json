@@ -1,0 +1,674 @@
+[
+    {
+        "id": 1,
+        "head": "Капитан Беллормо",
+        "author": "Альбер Робида",
+        "price": "9000 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/kapitan-bellormo-2948077"
+    },
+    {
+        "id": 2,
+        "head": "По прежнему чувствую радость: Том 1, Том 2 (комплект из 2 книг)",
+        "author": "Айзек Азимов",
+        "price": "5500 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/po-prezhnemu-chuvstvuyu-radost-tom-1-tom-2-komplekt-iz-2-knig-2966677"
+    },
+    {
+        "id": 3,
+        "head": "В памяти по прежнему молод: Том 1, Том 2 (комплект из 2 книг)",
+        "author": "Айзек Азимов",
+        "price": "5500 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/v-pamyati-po-prezhnemu-molod-tom-1-tom-2-komplekt-iz-2-knig-2966679"
+    },
+    {
+        "id": 4,
+        "head": "Робур-завоеватель",
+        "author": "Жюль Габриэль Верн",
+        "price": "4999 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/robur-zavoevatel-2948091"
+    },
+    {
+        "id": 5,
+        "head": "Полное собрание сочинений. В 33т. Том 23. 1978",
+        "author": "",
+        "price": "4199 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/polnoe-sobranie-sochineniy-v-33t-tom-23-1978-2852859"
+    },
+    {
+        "id": 6,
+        "head": "Полное собрание сочинений. В 33т. Том 22. 1977",
+        "author": "",
+        "price": "4199 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/polnoe-sobranie-sochineniy-v-33t-tom-22-1977-2852858"
+    },
+    {
+        "id": 7,
+        "head": "Советская фантастика 1920–1930-х годов. В трех томах (комплект из 3 книг)",
+        "author": "",
+        "price": "2903 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/sovetskaya-fantastika-1920-1930-h-godov-v-treh-tomah-komplekt-iz-3-knig-2825178"
+    },
+    {
+        "id": 8,
+        "head": "Сократ Сибирских Афин. Роман. Часть первая. Симпосий. В 2-х томах (комплект из двух книг)",
+        "author": "В. Колупаев",
+        "price": "2924 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/sokrat-sibirskih-afin-roman-chast-pervaya-simposiy-v-2-h-tomah-komplekt-iz-dvuh-knig-2769722"
+    },
+    {
+        "id": 9,
+        "head": "Три родины. Заблудившийся аргонавт. В час последний (комплект из 3 книг)",
+        "author": "",
+        "price": "3699 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/tri-rodiny-zabludivshiysya-argonavt-v-chas-posledniy-komplekt-iz-3-knig-2618708"
+    },
+    {
+        "id": 10,
+        "head": "Час Быка. Пять картин. Роман, рассказ",
+        "author": "Иван Ефремов",
+        "price": "3499 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/chas-byka-pyat-kartin-roman-rasskaz-2759389"
+    },
+    {
+        "id": 11,
+        "head": "Доктор Кто. Энциклопедия персонажей",
+        "author": "Аннабель Гибсон",
+        "price": "2922 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/doktor-kto-enciklopediya-personazhey-2567005"
+    },
+    {
+        "id": 12,
+        "head": "Московский Лес: День ботаника, Клык на холодец, Забытые в небе, Леса хватит на всех в 2 томах (комплект из 2 книг)",
+        "author": "Борис Батыршин",
+        "price": "2365 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/moskovskiy-les-den-botanika-klyk-na-holodec-zabytye-v-nebe-lesa-hvatit-na-vseh-v-2-tomah-komplekt-iz-2-knig-2954078"
+    },
+    {
+        "id": 13,
+        "head": "Ящик с секретом",
+        "author": "Всеволод Нестайко",
+        "price": "2064 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/yashchik-s-sekretom-2957415"
+    },
+    {
+        "id": 14,
+        "head": "Волшебный локон Ампары",
+        "author": "Сергей Павлов",
+        "price": "2064 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/volshebnyy-lokon-ampary-2936924"
+    },
+    {
+        "id": 15,
+        "head": "Лунная радуга",
+        "author": "Сергей Павлов",
+        "price": "2064 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/lunnaya-raduga-2928300"
+    },
+    {
+        "id": 16,
+        "head": "Время против времени. Все дозволено. Романы",
+        "author": "",
+        "price": "2799 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/vremya-protiv-vremeni-vse-dozvoleno-romany-2913387"
+    },
+    {
+        "id": 17,
+        "head": "Затмение: корона",
+        "author": "Джон Ширли",
+        "price": "2799 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/zatmenie-korona-2948072"
+    },
+    {
+        "id": 18,
+        "head": "Введение в Вечность: Инженеры Вселенной",
+        "author": "Александр Голышко",
+        "price": "2064 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/vvedenie-v-vechnost-inzhenery-vselennoy-2957414"
+    },
+    {
+        "id": 19,
+        "head": "Выше радуги. Повести",
+        "author": "Сергей Абрамов",
+        "price": "2149 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/vyshe-radugi-povesti-2936923"
+    },
+    {
+        "id": 20,
+        "head": "Полное затмение",
+        "author": "Джон Ширли",
+        "price": "2799 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/polnoe-zatmenie-2948086"
+    },
+    {
+        "id": 21,
+        "head": "Пятерка с хвостиком",
+        "author": "Всеволод Нестайко",
+        "price": "2799 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/pyaterka-s-hvostikom-2949986"
+    },
+    {
+        "id": 22,
+        "head": "Чердак Вселенной. Повести и рассказы",
+        "author": "Сергей Павлов",
+        "price": "2064 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/cherdak-vselennoy-povesti-i-rasskazy-2936925"
+    },
+    {
+        "id": 23,
+        "head": "Женщина-лиса и голубая пагода. Черное колесо. Романы",
+        "author": "Абрахам Меррит",
+        "price": "2064 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/zhenshchina-lisa-i-golubaya-pagoda-chernoe-koleso-romany-2936922"
+    },
+    {
+        "id": 24,
+        "head": "Затмение: Полутень",
+        "author": "Джон Ширли",
+        "price": "2799 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/zatmenie-poluten-2948073"
+    },
+    {
+        "id": 25,
+        "head": "Борьба титанов",
+        "author": "",
+        "price": "2799 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/borba-titanov-2844654"
+    },
+    {
+        "id": 26,
+        "head": "Синий тайфун",
+        "author": "Александр Абрамов, Сергей Абрамов",
+        "price": "2149 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/siniy-tayfun-2927243"
+    },
+    {
+        "id": 27,
+        "head": "Гибель шахмат. Повести и рассказы",
+        "author": "Александр Абрамов",
+        "price": "2799 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/gibel-shahmat-povesti-i-rasskazy-2913388"
+    },
+    {
+        "id": 28,
+        "head": "Корабль Иштар. Обитатели миража. Женщина-лиса. Романы, рассказ",
+        "author": "Абрахам Меррит",
+        "price": "2799 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/korabl-ishtar-obitateli-mirazha-zhenshchina-lisa-romany-rasskaz-2913389"
+    },
+    {
+        "id": 29,
+        "head": "Эдисоновское завоевание Марса",
+        "author": "Гаррет П. Сервисс",
+        "price": "2799 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/edisonovskoe-zavoevanie-marsa-2948098"
+    },
+    {
+        "id": 30,
+        "head": "Невероятные детективы",
+        "author": "Всеволод Нестайко",
+        "price": "2064 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/neveroyatnye-detektivy-2957416"
+    },
+    {
+        "id": 31,
+        "head": "Мотылек. Книга первая. Роман-факт (Цикл \"Эпоха четырех лун. Третья луна\")",
+        "author": "Маргарита Шайо",
+        "price": "2799 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/motylek-kniga-pervaya-roman-fakt-cikl-epoha-chetyreh-lun-tretya-luna-2936926"
+    },
+    {
+        "id": 32,
+        "head": "Семь шагов к Сатане. Лик в бездне. Романы",
+        "author": "Абрахам Меррит",
+        "price": "2699 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/sem-shagov-k-satane-lik-v-bezdne-romany-2907442"
+    },
+    {
+        "id": 33,
+        "head": "Резервация",
+        "author": "Алексей Калугин",
+        "price": "2699 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/rezervaciya-2800381"
+    },
+    {
+        "id": 34,
+        "head": "Холодные звезды",
+        "author": "Сергей Лукьяненко",
+        "price": "2382 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/holodnye-zvezdy-2736514"
+    },
+    {
+        "id": 35,
+        "head": "Механизмы империи (комплект из 3-х книг)",
+        "author": "Юн Ха Ли",
+        "price": "2292 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/mehanizmy-imperii-komplekt-iz-3-h-knig-2866655"
+    },
+    {
+        "id": 36,
+        "head": "Лунный бассейн. Металлическое чудовище. Романы. Лунный бассейн. Рассказ",
+        "author": "Абрахам Меррит",
+        "price": "2499 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/lunnyy-basseyn-metallicheskoe-chudovishche-romany-lunnyy-basseyn-rasskaz-2894796"
+    },
+    {
+        "id": 37,
+        "head": "Сквозь время. Научно-фантастическая утопия. Река Гераклита. Роман",
+        "author": "Дмитрий Биленкин",
+        "price": "1824 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/skvoz-vremya-nauchno-fantasticheskaya-utopiya-reka-geraklita-roman-2894797"
+    },
+    {
+        "id": 38,
+        "head": "Трилогия под одной обложкой. Метро 2033. Метро 2034. Метро 2035",
+        "author": "Дмитрий Глуховский",
+        "price": "2112 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/trilogiya-pod-odnoy-oblozhkoy-metro-2033-metro-2034-metro-2035-2736516"
+    },
+    {
+        "id": 39,
+        "head": "Второй контакт",
+        "author": "Николай Волков",
+        "price": "2299 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/vtoroy-kontakt-2805475"
+    },
+    {
+        "id": 40,
+        "head": "У пределов мрака",
+        "author": "",
+        "price": "2199 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/u-predelov-mraka-2800202"
+    },
+    {
+        "id": 41,
+        "head": "Черный Яша, Белое снадобье, Иск. Роман, повести",
+        "author": "",
+        "price": "2199 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/chernyy-yasha-beloe-snadobe-isk-roman-povesti-2845979"
+    },
+    {
+        "id": 42,
+        "head": "День работорговца: Научно-фантастические повести",
+        "author": "Геннадий Прашкевич",
+        "price": "2199 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/den-rabotorgovca-nauchno-fantasticheskie-povesti-2797165"
+    },
+    {
+        "id": 43,
+        "head": "Черная дверь. Книга 2. Охота на пришельцев",
+        "author": "Олег Радин",
+        "price": "2199 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/chernaya-dver-kniga-2-ohota-na-prishelcev-2724435"
+    },
+    {
+        "id": 44,
+        "head": "Козодой. Роман. Повести. Рассказы: Козодой. Секрет ревущей скалы. Семь снежных Робинзонов. Рассказы и сказки",
+        "author": "",
+        "price": "2199 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/kozodoy-roman-povesti-rasskazy-kozodoy-sekret-revushchey-skaly-sem-snezhnyh-robinzonov-rasskazy-i-skazki-2804173"
+    },
+    {
+        "id": 45,
+        "head": "Шаги в бесконечности",
+        "author": "",
+        "price": "2199 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/shagi-v-beskonechnosti-2800207"
+    },
+    {
+        "id": 46,
+        "head": "Падает вверх",
+        "author": "Александр Полещук",
+        "price": "1548 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/padaet-vverh-2927242"
+    },
+    {
+        "id": 47,
+        "head": "Пир Валтасара",
+        "author": "Александр Шалимов",
+        "price": "2199 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/pir-valtasara-2804172"
+    },
+    {
+        "id": 48,
+        "head": "Гибель Иллы. Ледяная тюрьма. Исследователи бесконечности, или Путешествие в вечность: Романы, повесть",
+        "author": "",
+        "price": "2199 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/gibel-illy-ledyanaya-tyurma-issledovateli-beskonechnosti-ili-puteshestvie-v-vechnost-romany-povest-2831858"
+    },
+    {
+        "id": 49,
+        "head": "Козодой. Роман. Повести. Рассказы: Козодой. Секрет ревущей скалы. Семь снежных Робинзонов. Рассказы и сказки",
+        "author": "",
+        "price": "2199 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/kozodoy-roman-povesti-rasskazy-kozodoy-sekret-revushchey-skaly-sem-snezhnyh-robinzonov-rasskazy-i-skazki-2804173"
+    },
+    {
+        "id": 50,
+        "head": "День работорговца: Научно-фантастические повести",
+        "author": "Геннадий Прашкевич",
+        "price": "2199 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/den-rabotorgovca-nauchno-fantasticheskie-povesti-2797165"
+    },
+    {
+        "id": 51,
+        "head": "Хроники села Щепетневки",
+        "author": "",
+        "price": "2199 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/hroniki-sela-shchepetnevki-2800203"
+    },
+    {
+        "id": 52,
+        "head": "Пир Валтасара",
+        "author": "Александр Шалимов",
+        "price": "2199 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/pir-valtasara-2804172"
+    },
+    {
+        "id": 53,
+        "head": "Хроники села Щепетневки. Книга вторая",
+        "author": "",
+        "price": "2199 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/hroniki-sela-shchepetnevki-kniga-vtoraya-2800204"
+    },
+    {
+        "id": 54,
+        "head": "Золотые страницы \"Аргуса\". Ночь в замке.",
+        "author": "",
+        "price": "2199 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/zolotye-stranicy-argusa-noch-v-zamke-2800206"
+    },
+    {
+        "id": 55,
+        "head": "Призрак у ворот",
+        "author": "Томас Рид",
+        "price": "1548 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/prizrak-u-vorot-2740336"
+    },
+    {
+        "id": 56,
+        "head": "Шаги в бесконечности",
+        "author": "",
+        "price": "2199 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/shagi-v-beskonechnosti-2800207"
+    },
+    {
+        "id": 57,
+        "head": "Гибель Иллы. Ледяная тюрьма. Исследователи бесконечности, или Путешествие в вечность: Романы, повесть",
+        "author": "",
+        "price": "2199 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/gibel-illy-ledyanaya-tyurma-issledovateli-beskonechnosti-ili-puteshestvie-v-vechnost-romany-povest-2831858"
+    },
+    {
+        "id": 58,
+        "head": "Таинственный человек дождя",
+        "author": "",
+        "price": "2199 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/tainstvennyy-chelovek-dozhdya-2731601"
+    },
+    {
+        "id": 59,
+        "head": "Проблема подарка: Рассказы, очерки",
+        "author": "Дмитрий Биленкин",
+        "price": "1589 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/problema-podarka-rasskazy-ocherki-2891999"
+    },
+    {
+        "id": 60,
+        "head": "Падает вверх",
+        "author": "Александр Полещук",
+        "price": "1548 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/padaet-vverh-2927242"
+    },
+    {
+        "id": 61,
+        "head": "Земные приманки",
+        "author": "Дмитрий Биленкин",
+        "price": "2199 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/zemnye-primanki-2878539"
+    },
+    {
+        "id": 62,
+        "head": "Демон движения",
+        "author": "Стефан Грабинский",
+        "price": "1548 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/demon-dvizheniya-2927241"
+    },
+    {
+        "id": 63,
+        "head": "Тайна Гремящей расщелины",
+        "author": "Александр Шалимов",
+        "price": "1548 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/tayna-gremyashchey-rasshcheliny-2864121"
+    },
+    {
+        "id": 64,
+        "head": "Черный Яша, Белое снадобье, Иск. Роман, повести",
+        "author": "",
+        "price": "2199 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/chernyy-yasha-beloe-snadobe-isk-roman-povesti-2845979"
+    },
+    {
+        "id": 65,
+        "head": "Золотой курган. Белая башня",
+        "author": "",
+        "price": "2199 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/zolotoy-kurgan-belaya-bashnya-2652858"
+    },
+    {
+        "id": 66,
+        "head": "Галактический консул. Блудные братья: Фантастический роман",
+        "author": "Евгений Филенко",
+        "price": "2199 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/galakticheskiy-konsul-bludnye-bratya-fantasticheskiy-roman-2831859"
+    },
+    {
+        "id": 67,
+        "head": "Реквием Крысиному Королю, или Гибель Богов. Сказка про Красного Быка, или Хроники Ленты Мебиуса. Романы",
+        "author": "Евгений Витковский",
+        "price": "2199 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/rekviem-krysinomu-korolyu-ili-gibel-bogov-skazka-pro-krasnogo-byka-ili-hroniki-lenty-mebiusa-romany-2816519"
+    },
+    {
+        "id": 68,
+        "head": "Посмотри в глаза чудовищ: роман",
+        "author": "Андрей Лазарчук",
+        "price": "2099 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/posmotri-v-glaza-chudovishch-roman-2899622"
+    },
+    {
+        "id": 69,
+        "head": "Ловцы звездного ветра. Книга 1",
+        "author": "Эль Бланк",
+        "price": "1599 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/lovcy-zvezdnogo-vetra-kniga-1-2853201"
+    },
+    {
+        "id": 70,
+        "head": "Золотой жук. Призрак Оперы. Дракула. Мифы Ктулху. Война миров. Человек-невидимка (комплект из 5 книг)",
+        "author": "Гастон Леру, Эдгар По, Брэм Стокер",
+        "price": "1507 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/zolotoy-zhuk-prizrak-opery-drakula-mify-ktulhu-voyna-mirov-chelovek-nevidimka-komplekt-iz-5-knig-2960585"
+    },
+    {
+        "id": 71,
+        "head": "Странствие Безногого",
+        "author": "Вячеслав Шалыгин",
+        "price": "2099 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/stranstvie-beznogogo-2783822"
+    },
+    {
+        "id": 72,
+        "head": "Гостья другого времени",
+        "author": "Эль Бланк, Ольга Копылова",
+        "price": "1999 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/gostya-drugogo-vremeni-2953884"
+    },
+    {
+        "id": 73,
+        "head": "Капитан Ульдемир. Сторож брату моему",
+        "author": "Владимир Михайлов",
+        "price": "1999 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/kapitan-uldemir-storozh-bratu-moemu-2802812"
+    },
+    {
+        "id": 74,
+        "head": "Бойцы с окраины галактики",
+        "author": "Роман Злотников",
+        "price": "1999 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/boycy-s-okrainy-galaktiki-2680930"
+    },
+    {
+        "id": 75,
+        "head": "Магацитлы",
+        "author": "Василий Головачёв",
+        "price": "1999 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/magacitly-2717948"
+    },
+    {
+        "id": 76,
+        "head": "Когда Спящий проснется = When the Sleeper Wakes: Учебное пособие. Метод параллельных текстов",
+        "author": "Герберт Уэллс",
+        "price": "1999 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/kogda-spyashchiy-prosnetsya-when-the-sleeper-wakes-uchebnoe-posobie-metod-parallelnyh-tekstov-2719063"
+    },
+    {
+        "id": 77,
+        "head": "Будущего.net",
+        "author": "Вячеслав Шалыгин",
+        "price": "1999 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/budushchego-net-2773883"
+    },
+    {
+        "id": 78,
+        "head": "Нептида-2: Возмездие",
+        "author": "Антон Фарутин",
+        "price": "1999 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/neptida-2-vozmezdie-2953872"
+    },
+    {
+        "id": 79,
+        "head": "Как мы ловили бабушку. Необычайные приключения Боченкина и Хвоща. Баукальские рассказы. Каспийские рассказы",
+        "author": "",
+        "price": "1999 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/kak-my-lovili-babushku-neobychaynye-priklyucheniya-bochenkina-i-hvoshcha-baukalskie-rasskazy-kaspiyskie-rasskazy-2724434"
+    },
+    {
+        "id": 80,
+        "head": "Мятеж на окраине галактики",
+        "author": "Роман Злотников",
+        "price": "1999 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/myatezh-na-okraine-galaktiki-2680929"
+    },
+    {
+        "id": 81,
+        "head": "Собрание сочинений. В 2 томах (комплект из 2 книг)",
+        "author": "Эдвард Беллами",
+        "price": "1469 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/sobranie-sochineniy-v-2-tomah-komplekt-iz-2-knig-2677505"
+    },
+    {
+        "id": 82,
+        "head": "Закат Земли. Научно-фантастические повести",
+        "author": "Геннадий Прашкевич",
+        "price": "1999 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/zakat-zemli-nauchno-fantasticheskie-povesti-2914789"
+    },
+    {
+        "id": 83,
+        "head": "Запределье: Осколок империи",
+        "author": "Андрей Ерпылев",
+        "price": "1999 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/zapredele-oskolok-imperii-362584"
+    },
+    {
+        "id": 84,
+        "head": "Ромашковое утро (комплект из 6 книг)",
+        "author": "Рэй Брэдбери",
+        "price": "1712 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/romashkovoe-utro-komplekt-iz-6-knig-2811258"
+    },
+    {
+        "id": 85,
+        "head": "Синий камень",
+        "author": "Юлия Каштанова",
+        "price": "1899 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/siniy-kamen-2781118"
+    },
+    {
+        "id": 86,
+        "head": "Капитан Ульдемир. Тогда придите, и рассудим",
+        "author": "Владимир Михайлов",
+        "price": "1899 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/kapitan-uldemir-togda-pridite-i-rassudim-2804353"
+    },
+    {
+        "id": 87,
+        "head": "Время вызова. Нужны князья, а не тати",
+        "author": "Роман Злотников",
+        "price": "1799 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/vremya-vyzova-nuzhny-knyazya-a-ne-tati-2719061"
+    },
+    {
+        "id": 88,
+        "head": "Второй шанс в Эдене",
+        "author": "Питер Гамильтон",
+        "price": "1799 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/vtoroy-shans-v-edene-2961735"
+    },
+    {
+        "id": 89,
+        "head": "Эксперт Удача",
+        "author": "Александр Белаш",
+        "price": "1799 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/ekspert-udacha-2793041"
+    },
+    {
+        "id": 90,
+        "head": "Попала - не пропала, или Мой похититель из будущего",
+        "author": "Ольга Грон",
+        "price": "1260 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/popala-ne-propala-ili-moy-pohititel-iz-budushchego-2953819"
+    },
+    {
+        "id": 91,
+        "head": "Мой любимый киборг",
+        "author": "Ольга Коротаева",
+        "price": "1245 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/moy-lyubimyy-kiborg-2848166"
+    },
+    {
+        "id": 92,
+        "head": "Город",
+        "author": "",
+        "price": "1799 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/gorod-2956291"
+    },
+    {
+        "id": 93,
+        "head": "Жаркий Август. Том I",
+        "author": "Маргарита Дюжева",
+        "price": "1799 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/zharkiy-avgust-tom-i-2953868"
+    },
+    {
+        "id": 94,
+        "head": "Капитан Ульдемир. Властелин. Часть 2. Пусть возвратится убийца",
+        "author": "Владимир Михайлов",
+        "price": "1799 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/kapitan-uldemir-vlastelin-chast-2-pust-vozvratitsya-ubiyca-2802814"
+    },
+    {
+        "id": 95,
+        "head": "Романтика космоимперии. Обыкновенные судьбы",
+        "author": "",
+        "price": "1799 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/romantika-kosmoimperii-obyknovennye-sudby-2830547"
+    },
+    {
+        "id": 96,
+        "head": "Посторонним вход воспрещен",
+        "author": "Борис Батыршин",
+        "price": "1799 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/postoronnim-vhod-vospreshchen-2828258"
+    }
+]

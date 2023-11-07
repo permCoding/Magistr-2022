@@ -1,0 +1,83 @@
+body {
+    background-color: #EDEEF0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Gill Sans', sans-serif;
+}
+
+.prod__info, .prod__avatar, .prod__posts {
+    background-color: #FFFFFF;
+    padding: 15px;
+}
+
+.prod__data {
+    display: flex;
+    margin: 20px 0 40px 0;
+}
+
+.prod__avatar img {
+    width: 339px;
+    height: 270px;
+}
+
+.prod__info {
+    margin-left: 30px;
+    width: 100%;
+}
+
+.prod__price, .prod__country, .shops {
+    font-size: 20px;
+}
+.price__label, .country__label, .shops p {
+    color: #8c6464;
+}
+
+.prod__name {
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.prod__price {
+    padding-bottom: 15px;
+}
+
+.prod__country {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #8c6464;
+}
+
+.prod__title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.prod__post {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #447e9b;
+    background-color: #eee7e7;
+}
+
+.post__title h3 {
+    border-bottom: 1px solid #bbbbbb;
+}
+
+.shops ul {
+    list-style: none;
+}
+
+.shops a {
+    text-decoration: none;
+    cursor: pointer;
+}
