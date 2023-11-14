@@ -1,6 +1,7 @@
 ## bs4
 
-links:  
+**links:**  
+
 0) тестовый пример с разбором bs4  
 1) сложная таблица -  
 https://www.championat.com/hockey/_superleague/tournament/5077/table/#all  
