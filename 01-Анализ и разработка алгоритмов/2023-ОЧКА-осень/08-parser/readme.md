@@ -21,6 +21,10 @@ https://pogoda7.ru/prognoz/gorod701-Russia-Permskiy_kray-Perm/
 https://www.tiobe.com/tiobe-index/  
 http://files-pcoding.1gb.ru/  
 
+http://parsing.1gb.ru/  
+http://parsing.1gb.ru/tiobe/rate.desc.3  
+http://parsing.1gb.ru/temp/Piter  
+
 https://api.github.com/users/{user}/repos  
 
 https://beautiful-soup-4.readthedocs.io/en/latest/  
