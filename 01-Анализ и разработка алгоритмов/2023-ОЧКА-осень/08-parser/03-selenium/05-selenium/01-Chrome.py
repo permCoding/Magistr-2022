@@ -1,3 +1,4 @@
+# This version of ChromeDriver only supports Chrome version 114
 import undetected_chromedriver
 from selenium.webdriver.common.by import By
 from time import sleep
