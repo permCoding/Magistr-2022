@@ -6,6 +6,7 @@ with open('./tournament.html', 'r', encoding='utf8') as f:
     html = f.read()
 
 soup = bs(html, 'html.parser')
+# soup = bs(html, 'lxml')
 
 trs = soup \
     .find('table', { 'class': 'results-table' }) \
@@ -19,7 +20,3 @@ for tr in trs:
         tds[1].text.strip(), 
         tds[9].text.strip()
     )
-
-# tables = soup.find_all('table', class_="results-table")
-
-# table = soup.find('table', class_="results-table")  # dict
