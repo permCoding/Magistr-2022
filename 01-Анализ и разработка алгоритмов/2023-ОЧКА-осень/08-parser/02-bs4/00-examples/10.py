@@ -1,5 +1,4 @@
 from bs4 import BeautifulSoup
-import re
 
 html = """
 <div class="prod__info">

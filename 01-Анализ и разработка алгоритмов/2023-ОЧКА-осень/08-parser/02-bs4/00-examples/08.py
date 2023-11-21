@@ -1,5 +1,4 @@
 from bs4 import BeautifulSoup
-import re
 
 html = """
 <div>
@@ -14,7 +13,7 @@ html = """
 
 soup = BeautifulSoup(html, "html.parser")
 
-# найти следующий тег
+# найти тег по рядом лежащим
 tag = soup \
     .find(id='price__title') \
     .find_parent() \

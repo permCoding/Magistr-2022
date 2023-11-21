@@ -1,10 +1,9 @@
 from bs4 import BeautifulSoup
-import re
 
 html = """
 <div class="prod__info">
     <div>
-        <p>10.03.2023</p><p>11.03.2023</p>
+        <p>10.03.2023</p><p>  11.03.2023  </p>
         <p>17.03.2023</p>
         <p>02.04.2023</p>
     </div>
@@ -28,4 +27,5 @@ print(soup.find('p'))
 print(soup.find('p').next_element)
 print(soup.find('p').next_element.next_element)
 print(soup.find('p').next_element.next_element.next_element)
+print(soup.find('p').next_element.next_element.next_element.strip())
 print('- - - - - -')

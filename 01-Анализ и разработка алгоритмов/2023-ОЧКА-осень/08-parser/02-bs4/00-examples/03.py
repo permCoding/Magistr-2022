@@ -28,9 +28,11 @@ def div_and_class(tag):
     u1 = tag.name == 'div'
     u2 = tag.has_attr('class')
     return u1 and u2
+
 tags = soup \
     .find('div', class_='prod__info') \
     .find_all(div_and_class)
+
 for tag in tags:
     print(tag.find('span').text.strip())
 

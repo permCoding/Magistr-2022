@@ -8,6 +8,8 @@ html = """
     </div>
     <div class="prod__price">
         <span>Стоимость:</span>
+        <span>правдоруб</span>
+        <span>12500руб.</span>
         <span>22500 руб</span>
         <span>32500 руб.</span>
         <span>42500     Руб.</span>
@@ -27,5 +29,5 @@ print('- - - - -')
 tags = soup.find_all('span', string=re.compile('Руб.'))
 for tag in tags: print(tag.text)
 print('- - - - -')
-tags = soup.find_all('span', string=re.compile('.*руб\.?', re.I))
+tags = soup.find_all('span', string=re.compile('\d+\s*руб\.?', re.I))
 for tag in tags: print(tag.text)
