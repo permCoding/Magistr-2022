@@ -8,10 +8,10 @@ repsonse.encoding = "utf8"
 
 lst = repsonse.json()
 
-keys = ["language", "html_url"]
+keys = ["id", "language", "html_url"]
 result = []
-for repo in lst:
-    values = [repo[keys[0]], repo[keys[1]]]
+for id, repo in enumerate(lst, start=1):
+    values = [id, repo[keys[0]], repo[keys[1]]]
     result.append(dict(zip(keys, values)))
 
 json_str = json.dumps(result, ensure_ascii=False, indent=4)
