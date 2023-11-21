@@ -5,20 +5,20 @@ from random import randint as rnd
 import json
 
 
-def get_html(sss, url):
+def get_html(sess, url):
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0'
     }
-    sss.headers.update(headers)
-    resp = sss.get(url)
+    sess.headers.update(headers)
+    resp = sess.get(url)
     resp.encoding = 'utf8'
     return resp.text
 
 host = 'https://scrapingclub.com'
-sss = req.Session()
+sess = req.Session()
 
 url = f'https://scrapingclub.com/exercise/list_infinite_scroll/'
-html = get_html(sss, url)
+html = get_html(sess, url)
 soup = BeautifulSoup(html, 'html.parser')
 count = len(soup.find('ul', class_='pagination invisible').find_all('li'))
 # print(count)
@@ -27,7 +27,7 @@ lst = []
 for page in range(1, count):
     print(page)
     url = f'https://scrapingclub.com/exercise/list_infinite_scroll/?page={page}'
-    html = get_html(sss, url)
+    html = get_html(sess, url)
     soup = BeautifulSoup(html, 'html.parser')
     cards = soup.find_all('div', class_='col-lg-4 col-md-6 mb-4')
     # print(len(cards))
