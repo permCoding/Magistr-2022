@@ -8,4 +8,9 @@ repsonse.encoding = "utf8"
 
 lst = repsonse.json()
 repo = lst[0]
-print(repo["language"], repo["html_url"])
+try:
+    print(repo["language"], repo["html_url"], repo["owner"]["login"])
+except:
+    print("не все поля были найдены")
+finally:
+    print("the end")

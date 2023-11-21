@@ -5,7 +5,8 @@ import json
 with open('./tournament.html', 'r', encoding='utf8') as f:
     html = f.read()
 
-soup = bs(html, 'html.parser')
+# soup = bs(html, 'html.parser')
+soup = bs(html, 'lxml')
 
 trs = soup \
     .find('table', class_="results-table") \

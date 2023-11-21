@@ -32,9 +32,11 @@ def div_and_class(tag):
         return not u3
     else:
         return False
+
 tags = soup \
     .find('div', class_='prod__info') \
     .find_all(div_and_class)
+
 for tag in tags:
     print(tag.find('span').text.strip())
 

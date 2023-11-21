@@ -1,4 +1,4 @@
-import requests, json
+import requests
 
 
 user = 'permCoding'
@@ -9,4 +9,3 @@ repsonse.encoding = "utf8"
 lst = repsonse.json()
 for repo in lst:
     print(repo["language"], repo["html_url"])
-

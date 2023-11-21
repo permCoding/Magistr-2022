@@ -8,7 +8,7 @@ html = """
     <link rel="shortcut icon" href="favicon.ico">
 </head>"""
 
-soup = BeautifulSoup(html, "html.parser")
+soup = BeautifulSoup(html, "html.parser")  # "lxml" # pip install lxml
 
 # найти первый тег title
 print(soup.find('title'))
