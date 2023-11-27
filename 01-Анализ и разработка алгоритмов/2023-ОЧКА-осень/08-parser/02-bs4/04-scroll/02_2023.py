@@ -1,49 +1,46 @@
-import requests as req
+import requests
+from fake_useragent import UserAgent
 from bs4 import BeautifulSoup
 from time import sleep
-from random import randint as rnd
+import random
 import json
 
 
-def get_html(sess, url):
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0'
-    }
-    sess.headers.update(headers)
-    resp = sess.get(url)
+def get_html(url):
+    ua = UserAgent().chrome
+    resp = requests.get(url, headers={'User-Agent': ua})
     resp.encoding = 'utf8'
     return resp.text
 
-host = 'https://scrapingclub.com'
-sess = req.Session()
 
+host = 'https://scrapingclub.com'
 url = f'https://scrapingclub.com/exercise/list_infinite_scroll/'
-html = get_html(sess, url)
+html = get_html(url)
 soup = BeautifulSoup(html, 'html.parser')
-count = len(soup.find('ul', class_='pagination invisible').find_all('li'))
-# print(count)
+tags = soup.find('nav', class_='pagination').find_all('span')
+count = len(tags)
+
 columns = ['id','price','title','href']
 lst = []
 for page in range(1, count):
-    print(page)
     url = f'https://scrapingclub.com/exercise/list_infinite_scroll/?page={page}'
-    html = get_html(sess, url)
+    html = get_html(url)
     soup = BeautifulSoup(html, 'html.parser')
-    cards = soup.find_all('div', class_='col-lg-4 col-md-6 mb-4')
-    # print(len(cards))
+    cards = soup.find_all('div', class_='w-full rounded border post')
     for card in cards:
-        tag = card.find('div', class_='card')
-        title = tag.find('h4', class_='card-title').text.strip()
-        price = tag.find('h5').text.strip()
-        href = tag.find('h4', class_='card-title').find('a').get('href')
+        href = card.find('a').get('href')
+        title = card.find('div').find('h4').text.strip()
+        price = card.find('div').find('h5').text.strip()
         lst.append([price,title,host+href])
-    sleep(rnd(2,4))
-res = []
-for i, e in enumerate(lst):
-    res.append(dict(zip(columns, [i+1] + e)))
-# s = json.dumps(res, ensure_ascii=False, indent=4)
-# print(s)
-with open('cards.json', 'w', encoding='utf8') as f:
+    
+    print(page, len(cards))  # это для контроля
+    sleep(1 + random.random()*3)
+
+res = [dict(zip(columns, [i+1]+e)) for i,e in enumerate(lst)]
+
+print(json.dumps(res, ensure_ascii=False, indent=4))
+
+with open('./cards.json', 'w', encoding='utf8') as f:
     json.dump(res, f, ensure_ascii=False, indent=4)
 
 """
