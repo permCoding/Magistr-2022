@@ -1,6 +1,6 @@
-import requests
-from fake_useragent import UserAgent
-from bs4 import BeautifulSoup
+import requests  # pip install requests
+from fake_useragent import UserAgent  # pip install fake_useragent
+from bs4 import BeautifulSoup  # pip install bs4
 # import json  # это для сохранения в json-файл
 from time import sleep
 from random import random
