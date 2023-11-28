@@ -18,11 +18,12 @@ def get_links_on_page(html):  # получить все ссылки на стр
         .find('div', class_='products-list') \
         .find_all('article')
     links = []
-    for item in arts:
-        link = item \
+    for art in arts:
+        link = art \
             .find('a') \
             .find('picture', {'class':'product-picture'}) \
-            .find('img')['data-src']
+            .find('img').get('data-src')
+            # .find('img')['data-src']
         links.append(link)
     return links
 

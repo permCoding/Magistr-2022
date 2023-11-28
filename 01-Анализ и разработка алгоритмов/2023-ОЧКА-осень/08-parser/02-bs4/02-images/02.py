@@ -41,4 +41,3 @@ links = get_links_on_page(html)
 
 for link in links:
     save_to_file(link, './images/')
-    break  # только 1 для проверки
