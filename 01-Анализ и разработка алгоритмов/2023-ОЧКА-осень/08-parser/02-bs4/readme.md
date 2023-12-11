@@ -19,8 +19,10 @@ https://scrapingclub.com/exercise/list_infinite_scroll/
 - .find_next_siblings() .find_previous_siblings()  
 - .next_element .previous_element  
 - .next_elements .previous_elements  
-- .get() dict  
+- .get() dict
+- import re: soup.find_all('div', string=re.compile(ptn))
 - import re: soup.find_all(text=re.compile(ptn))  
+- .findChildren("div", recursive=False)  
 
 ---  
 
