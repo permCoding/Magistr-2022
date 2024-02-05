@@ -16,3 +16,5 @@ node5.right = node7
 print(node7.key, node7.left, node7.right)
 print(node4.key, node4.left, node4.right)  # node4.right == node5
 print(node5)
+
+[3,4,5,7]

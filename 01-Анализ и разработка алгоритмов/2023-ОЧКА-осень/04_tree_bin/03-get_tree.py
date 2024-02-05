@@ -1,3 +1,6 @@
+from random import shuffle
+
+
 class Node:
     def __init__(self, value):
         self.key = value  # вершина - родитель
@@ -20,19 +23,26 @@ def get_tree():
 def find_in_tree(node, finder_elm):
     if node:  # node != None
         if finder_elm == node.key:
-            return (True)
+            return True
         elif finder_elm < node.key:
             return find_in_tree(node.left, finder_elm)
         else:
             return find_in_tree(node.right, finder_elm)
     else:
-        return (False)
+        return False
 
 
-tree = get_tree()  # [3, 4, 5, 7]
+tree = get_tree()  # [2, 4, 5, 6, 7]
+# print(find_in_tree(tree, 1))
 check_elements = [3, 5, 8, 4, 7, 6, 2]
 for elm in check_elements:
-    print(f"elm = {elm} => {find_in_tree(tree, elm)}")
+    print(f"elm = {elm} => {find_in_tree(tree, elm)}")  #  а сколько шагов было сделано
+
+
+lst = list(range(1, 11))
+print(lst)
+shuffle(lst)
+print(lst)
 
 """
 Две задачи:
