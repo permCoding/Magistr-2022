@@ -1,0 +1,37 @@
+{
+    "_id": "tiobe",
+    "startUrl": [
+        "https://www.tiobe.com/tiobe-index/"
+    ],
+    "selectors": [
+        {
+            "id": "row",
+            "multiple": true,
+            "parentSelectors": [
+                "_root"
+            ],
+            "selector": ".table-top20 tbody tr",
+            "type": "SelectorElement"
+        },
+        {
+            "id": "lang",
+            "multiple": false,
+            "parentSelectors": [
+                "row"
+            ],
+            "regex": "",
+            "selector": "td:nth-of-type(5)",
+            "type": "SelectorText"
+        },
+        {
+            "id": "rate",
+            "multiple": false,
+            "parentSelectors": [
+                "row"
+            ],
+            "regex": "",
+            "selector": "td:nth-of-type(6)",
+            "type": "SelectorText"
+        }
+    ]
+}

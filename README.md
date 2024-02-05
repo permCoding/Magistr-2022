@@ -7,7 +7,8 @@
 **Руководитель БЕЛЯКОВ Андрей Юрьевич**  
 к.т.н, доцент, доцент кафедры ИТиПИ  
 email: belyakov.au@ya.ru  
-[telegram](https://t.me/AndreyPerm)  
+[telegram](https://t.me/AndreyPerm)
+[Кабинет для онлайн занятий bbb3](https://bbb3.psaa.ru/b/6xn-a4i-sbu-n77)  
 [Кабинет для онлайн занятий bbb](https://bbb.psaa.ru/rooms/gpm-vn9-df4-qfg/join)  
 [Кабинет для онлайн занятий bbb6](https://bbb6.psaa.ru/b/cxy-tmy-6rl-vyv)  
 [Анкетирование, тестирование EXAM](http://exam.1gb.ru/)  

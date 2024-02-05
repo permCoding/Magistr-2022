@@ -1,0 +1,77 @@
+[
+    {
+        "id": "59761",
+        "isActive": true,
+        "age": 36,
+        "name": "Кошмар Кошмаров",
+        "gender": "male",
+        "company": "CEDWARD",
+        "email": "koshma@cedward.com",
+        "phone": "+8 (890) 543-2508",
+        "address": {
+            "city": "Кунгур",
+            "street": "Ленина",
+            "apartment": "2-21"
+        }
+    },
+    {
+        "id": "59764",
+        "isActive": true,
+        "age": 35,
+        "name": "Тот самый",
+        "gender": "male",
+        "company": "CEDWARD",
+        "email": "this@cedward.com",
+        "phone": "+8 (880) 703-5204",
+        "address": {
+            "city": "Кунгур",
+            "street": "Шишкина",
+            "apartment": "6-33"
+        }
+    },
+    {
+        "id": "59767",
+        "isActive": true,
+        "age": 37,
+        "name": "Джек Дорси",
+        "gender": "male",
+        "company": "twitter",
+        "email": "jack@twitter.com",
+        "phone": "+8 (882) 441-3367",
+        "address": {
+            "city": "Кунгур",
+            "street": "Пушкина",
+            "apartment": "10-36"
+        }
+    },
+    {
+        "id": "59770",
+        "isActive": true,
+        "age": 42,
+        "name": "Компот Киселев",
+        "gender": "male",
+        "company": "GreenDail",
+        "email": "green@gmail.com",
+        "phone": "+8 (822) 513-7532",
+        "address": {
+            "city": "Кунгур",
+            "street": "Ленина",
+            "apartment": "16-52"
+        }
+    },
+    {
+        "id": "59771",
+        "isActive": true,
+        "age": 35,
+        "name": "Барсук Бобров",
+        "gender": "male",
+        "company": "GreenDail",
+        "email": "green@gmail.com",
+        "phone": "+8 (822) 513-7532",
+        "address": {
+            "city": "Кунгур",
+            "street": "Ленина",
+            "apartment": "55-12"
+        }
+    }
+]

@@ -1,0 +1,23 @@
+https://www.tiobe.com/tiobe-index/
+Oct 2020
+Language	Rating
+C#	4,16%
+MATLAB	1,12%
+Objective-C	0,86%
+SQL	1,57%
+Assembly language	1,08%
+Groovy	1,23%
+Classic Visual Basic	0,77%
+C++	6,94%
+PL/SQL	0,77%
+C	16,95%
+Perl	1,43%
+Python	11,28%
+Ruby	1,16%
+Go	1,16%
+Visual Basic	3,97%
+JavaScript	2,14%
+Swift	1,09%
+PHP	2,09%
+R	1,99%
+Java	12,56%

@@ -1,5 +1,7 @@
 # Анализ алгоритмов
 
+[Рейтинг ПИм-1 2023](https://docs.google.com/spreadsheets/d/1VUNMgV9Mk57zTohcsL_T9XbqyR1N8YigGRILlnrxdUQ/edit?usp=sharing)  
+
 ## Анализ сложности алгоритмов
 
 ## Алгоритмы сортировки  
@@ -11,8 +13,6 @@
 [Доска для рисования 2022 - Алгоритмы поиска](https://jamboard.google.com/d/1vtwRSDglO_TcvXbpGJEq9rlKMU_sOyvbBmXsc76kkY8/edit?usp=sharing)  
 
 [Схемы алгоритмов](https://jamboard.google.com/d/1olktw4v8ZJbPNJQAhofzNWkwG8RRgzYtAhgQvSSJM4o/edit?usp=sharing)  
-
-Найти файл со словами русского языка и подготовить задачу по нему...  
 
 ---  
 

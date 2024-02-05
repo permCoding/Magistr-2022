@@ -1,0 +1,674 @@
+[
+    {
+        "id": 1,
+        "head": "Этюды черни",
+        "author": "Ольга Ускова",
+        "price": "594 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/etyudy-cherni-2993383"
+    },
+    {
+        "id": 2,
+        "head": "Вы - чародей: Пособие по выживанию в средневековой Англии",
+        "author": "Брендон Сандерсон",
+        "price": "708 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/vy-charodey-posobie-po-vyzhivaniyu-v-srednevekovoy-anglii-3013289"
+    },
+    {
+        "id": 3,
+        "head": "Дюна",
+        "author": "Фрэнк Герберт",
+        "price": "994 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/dyuna-3010155"
+    },
+    {
+        "id": 4,
+        "head": "Укрытие. Книга 2. Смена",
+        "author": "Хью Хауи",
+        "price": "790 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/ukrytie-kniga-2-smena-3007976"
+    },
+    {
+        "id": 5,
+        "head": "Укрытие. Книга 1. Иллюзия",
+        "author": "Хью Хауи",
+        "price": "790 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/ukrytie-kniga-1-illyuziya-3004242"
+    },
+    {
+        "id": 6,
+        "head": "Понедельник начинается в субботу: сказка для научных работников младшего возраста",
+        "author": "Аркадий и Борис Стругацкие, Борис Стругацкий",
+        "price": "256 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/ponedelnik-nachinaetsya-v-subbotu-skazka-dlya-nauchnyh-rabotnikov-mladshego-vozrasta-2469367"
+    },
+    {
+        "id": 7,
+        "head": "Пикник на обочине",
+        "author": "Аркадий и Борис Стругацкие, Борис Стругацкий",
+        "price": "240 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/piknik-na-obochine-2467382"
+    },
+    {
+        "id": 8,
+        "head": "Небесная река",
+        "author": "Деннис Тейлор",
+        "price": "711 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/nebesnaya-reka-3004597"
+    },
+    {
+        "id": 9,
+        "head": "Задача трех тел",
+        "author": "Лю Цысинь",
+        "price": "959 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/zadacha-treh-tel-2611714"
+    },
+    {
+        "id": 10,
+        "head": "Наследник Каладана",
+        "author": "Кевин Джей Андерсон, Брайан Герберт",
+        "price": "691 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/naslednik-kaladana-3000149"
+    },
+    {
+        "id": 11,
+        "head": "451° по Фаренгейту",
+        "author": "Рэй Брэдбери",
+        "price": "276 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/4510-po-farengeytu-2822350"
+    },
+    {
+        "id": 12,
+        "head": "Трудно быть богом: фантастическая повесть",
+        "author": "Аркадий и Борис Стругацкие, Борис Стругацкий",
+        "price": "240 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/trudno-byt-bogom-fantasticheskaya-povest-2480416"
+    },
+    {
+        "id": 13,
+        "head": "Athanasy: История болезни",
+        "author": "Михаил Мавликаев",
+        "price": "594 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/athanasy-istoriya-bolezni-3013372"
+    },
+    {
+        "id": 14,
+        "head": "Солярис",
+        "author": "Станислав Лем",
+        "price": "256 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/solyaris-2410256"
+    },
+    {
+        "id": 15,
+        "head": "Поселок",
+        "author": "Кир Булычев",
+        "price": "224 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/poselok-2874160"
+    },
+    {
+        "id": 16,
+        "head": "Некровиль",
+        "author": "Йен Макдональд",
+        "price": "994 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/nekrovil-2996117"
+    },
+    {
+        "id": 17,
+        "head": "Проект \"Аве Мария\"",
+        "author": "Энди Вейер",
+        "price": "578 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/proekt-ave-mariya-2884055"
+    },
+    {
+        "id": 18,
+        "head": "Синдром отката",
+        "author": "Нил Стивенсон",
+        "price": "1097 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/sindrom-otkata-3000436"
+    },
+    {
+        "id": 19,
+        "head": "Темный лес",
+        "author": "Лю Цысинь",
+        "price": "959 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/temnyy-les-2624469"
+    },
+    {
+        "id": 20,
+        "head": "Дюна",
+        "author": "Фрэнк Герберт",
+        "price": "311 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/dyuna-2932480"
+    },
+    {
+        "id": 21,
+        "head": "Руины в цветах",
+        "author": "Кристина Той",
+        "price": "502 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/ruiny-v-cvetah-2993131"
+    },
+    {
+        "id": 22,
+        "head": "Последняя война",
+        "author": "Кир Булычев",
+        "price": "977 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/poslednyaya-voyna-2992375"
+    },
+    {
+        "id": 23,
+        "head": "Прыжок",
+        "author": "Сергей Лукьяненко",
+        "price": "653 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/pryzhok-2957536"
+    },
+    {
+        "id": 24,
+        "head": "Свет в окошке. Земные пути. Колодезь",
+        "author": "Святослав Логинов",
+        "price": "977 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/svet-v-okoshke-zemnye-puti-kolodez-2978969"
+    },
+    {
+        "id": 25,
+        "head": "День триффидов",
+        "author": "Джон Уиндем",
+        "price": "240 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/den-triffidov-2509817"
+    },
+    {
+        "id": 26,
+        "head": "Транзиция",
+        "author": "Иэн Бэнкс",
+        "price": "834 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/tranziciya-3006716"
+    },
+    {
+        "id": 27,
+        "head": "Овцы смотрят вверх",
+        "author": "",
+        "price": "578 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/ovcy-smotryat-vverh-3001251"
+    },
+    {
+        "id": 28,
+        "head": "Вечная жизнь Смерти",
+        "author": "Лю Цысинь",
+        "price": "912 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/vechnaya-zhizn-smerti-2663649"
+    },
+    {
+        "id": 29,
+        "head": "Дюна",
+        "author": "Фрэнк Герберт",
+        "price": "707 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/dyuna-2782287"
+    },
+    {
+        "id": 30,
+        "head": "Пески Дюны: фантастический роман",
+        "author": "Кевин Джей Андерсон, Брайан Герберт",
+        "price": "481 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/peski-dyuny-fantasticheskiy-roman-2974877"
+    },
+    {
+        "id": 31,
+        "head": "Алое восстание",
+        "author": "Пирс Браун",
+        "price": "667 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/aloe-vosstanie-2969428"
+    },
+    {
+        "id": 32,
+        "head": "О муравьях и динозаврах",
+        "author": "Лю Цысинь",
+        "price": "834 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/o-muravyah-i-dinozavrah-3007075"
+    },
+    {
+        "id": 33,
+        "head": "Алая аура протопарторга. Абсолютно правдивые истории о кудесниках, магах и нечисти самой разнообразной",
+        "author": "Евгений Лукин",
+        "price": "977 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/alaya-aura-protopartorga-absolyutno-pravdivye-istorii-o-kudesnikah-magah-i-nechisti-samoy-raznoobraznoy-2976873"
+    },
+    {
+        "id": 34,
+        "head": "Вторая модель",
+        "author": "Филип Киндред Дик",
+        "price": "954 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/vtoraya-model-3003732"
+    },
+    {
+        "id": 35,
+        "head": "Крыса из нержавеющей стали",
+        "author": "Гарри Гаррисон",
+        "price": "977 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/krysa-iz-nerzhaveyushchey-stali-3001589"
+    },
+    {
+        "id": 36,
+        "head": "Разреженный воздух: роман",
+        "author": "Ричард K. Морган",
+        "price": "994 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/razrezhennyy-vozduh-roman-2964054"
+    },
+    {
+        "id": 37,
+        "head": "Город и звезды. Конец детства",
+        "author": "Артур Чарлз Кларк",
+        "price": "594 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/gorod-i-zvezdy-konec-detstva-3006910"
+    },
+    {
+        "id": 38,
+        "head": "Птица малая",
+        "author": "Мэри Дориа Расселл",
+        "price": "600 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/ptica-malaya-3005681"
+    },
+    {
+        "id": 39,
+        "head": "Воспоминания о прошлом Земли. Трилогия",
+        "author": "Лю Цысинь",
+        "price": "1704 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/vospominaniya-o-proshlom-zemli-trilogiya-2761440"
+    },
+    {
+        "id": 40,
+        "head": "Мирт. Холмы Каледонии",
+        "author": "Мария Руднева",
+        "price": "492 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/mirt-holmy-kaledonii-2994057"
+    },
+    {
+        "id": 41,
+        "head": "Отель \"У погибшего альпиниста\"",
+        "author": "Аркадий и Борис Стругацкие, Борис Стругацкий",
+        "price": "240 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/otel-u-pogibshego-alpinista-2774995"
+    },
+    {
+        "id": 42,
+        "head": "Молот Вулкана",
+        "author": "Филип Киндред Дик",
+        "price": "558 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/molot-vulkana-2993719"
+    },
+    {
+        "id": 43,
+        "head": "Зов пространства",
+        "author": "Джон Уиндем",
+        "price": "216 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/zov-prostranstva-3000106"
+    },
+    {
+        "id": 44,
+        "head": "Мессия Дюны. Дети Дюны",
+        "author": "Фрэнк Герберт",
+        "price": "707 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/messiya-dyuny-deti-dyuny-2816780"
+    },
+    {
+        "id": 45,
+        "head": "За миллиард лет до конца света",
+        "author": "Аркадий и Борис Стругацкие, Борис Стругацкий",
+        "price": "240 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/za-milliard-let-do-konca-sveta-2512181"
+    },
+    {
+        "id": 46,
+        "head": "Мечтают ли андроиды об электроовцах?",
+        "author": "Филип Киндред Дик",
+        "price": "516 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/mechtayut-li-androidy-ob-elektroovcah-2884510"
+    },
+    {
+        "id": 47,
+        "head": "11/22/63",
+        "author": "Стивен Кинг",
+        "price": "367 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/11-22-63-2802700"
+    },
+    {
+        "id": 48,
+        "head": "Поселок: роман",
+        "author": "Кир Булычев",
+        "price": "223 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/poselok-roman-2697827"
+    },
+    {
+        "id": 49,
+        "head": "Дюна: Дюна. Мессия Дюны. Дети Дюны",
+        "author": "Фрэнк Герберт",
+        "price": "1172 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/dyuna-dyuna-messiya-dyuny-deti-dyuny-2827310"
+    },
+    {
+        "id": 50,
+        "head": "Зеленая миля",
+        "author": "Стивен Кинг",
+        "price": "405 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/zelenaya-milya-2344014"
+    },
+    {
+        "id": 51,
+        "head": "К западу от Эдема. Зима в Эдеме. Возвращение в Эдем",
+        "author": "Гарри Гаррисон",
+        "price": "977 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/k-zapadu-ot-edema-zima-v-edeme-vozvrashchenie-v-edem-2976874"
+    },
+    {
+        "id": 52,
+        "head": "Гиперион",
+        "author": "Дэн Симмонс",
+        "price": "311 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/giperion-2575819"
+    },
+    {
+        "id": 53,
+        "head": "Демонстрация силы",
+        "author": "Стас Устенко",
+        "price": "88 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/demonstraciya-sily-2797016"
+    },
+    {
+        "id": 54,
+        "head": "Путешествие к центру Земли. Вокруг света в 80 дней (с илл.)",
+        "author": "Жюль Габриэль Верн",
+        "price": "790 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/puteshestvie-k-centru-zemli-vokrug-sveta-v-80-dney-s-ill-3013299"
+    },
+    {
+        "id": 55,
+        "head": "Град обреченный",
+        "author": "Аркадий и Борис Стругацкие, Борис Стругацкий",
+        "price": "293 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/grad-obrechennyy-2523431"
+    },
+    {
+        "id": 56,
+        "head": "451 по Фаренгейту",
+        "author": "Рэй Брэдбери",
+        "price": "266 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/451-po-farengeytu-2743049"
+    },
+    {
+        "id": 57,
+        "head": "Странная история доктора Джекила и мистера Хайда",
+        "author": "Роберт Льюис Стивенсон",
+        "price": "206 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/strannaya-istoriya-doktora-dzhekila-i-mistera-hayda-2558636"
+    },
+    {
+        "id": 58,
+        "head": "Мессия Дюны: фантастический роман",
+        "author": "Фрэнк Герберт",
+        "price": "256 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/messiya-dyuny-fantasticheskiy-roman-2598899"
+    },
+    {
+        "id": 59,
+        "head": "Дюна: Бог-Император Дюны. Еретики Дюны. Капитул Дюны",
+        "author": "Фрэнк Герберт",
+        "price": "1172 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/dyuna-bog-imperator-dyuny-eretiki-dyuny-kapitul-dyuny-2827311"
+    },
+    {
+        "id": 60,
+        "head": "Всевышнее вторжение",
+        "author": "Филип Киндред Дик",
+        "price": "516 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/vsevyshnee-vtorzhenie-2921454"
+    },
+    {
+        "id": 61,
+        "head": "11/22/63",
+        "author": "Стивен Кинг",
+        "price": "1085 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/11-22-63-2863337"
+    },
+    {
+        "id": 62,
+        "head": "Ложная слепота",
+        "author": "Питер Уоттс",
+        "price": "691 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/lozhnaya-slepota-2989587"
+    },
+    {
+        "id": 63,
+        "head": "451 по Фаренгейту.",
+        "author": "Рэй Брэдбери",
+        "price": "266 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/451-po-farengeytu-2257322"
+    },
+    {
+        "id": 64,
+        "head": "Дети Дюны",
+        "author": "Фрэнк Герберт",
+        "price": "279 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/deti-dyuny-2785757"
+    },
+    {
+        "id": 65,
+        "head": "Опрокинутый мир",
+        "author": "Кристофер Прист",
+        "price": "256 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/oprokinutyy-mir-2631614"
+    },
+    {
+        "id": 66,
+        "head": "Сами боги",
+        "author": "Айзек Азимов",
+        "price": "558 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/sami-bogi-2951031"
+    },
+    {
+        "id": 67,
+        "head": "Обитаемый остров",
+        "author": "Аркадий и Борис Стругацкие, Борис Стругацкий",
+        "price": "293 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/obitaemyy-ostrov-2653975"
+    },
+    {
+        "id": 68,
+        "head": "Последняя секунда Вселенной",
+        "author": "Алиса Веспер",
+        "price": "481 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/poslednyaya-sekunda-vselennoy-3001236"
+    },
+    {
+        "id": 69,
+        "head": "Проект \"Аве Мария\": роман",
+        "author": "Энди Вейер",
+        "price": "293 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/proekt-ave-mariya-roman-3007150"
+    },
+    {
+        "id": 70,
+        "head": "Понедельник начинается в субботу",
+        "author": "Аркадий и Борис Стругацкие, Борис Стругацкий",
+        "price": "443 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/ponedelnik-nachinaetsya-v-subbotu-2700366"
+    },
+    {
+        "id": 71,
+        "head": "Вся шуттовская рать",
+        "author": "Роберт Асприн, Питер Хек",
+        "price": "1085 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/vsya-shuttovskaya-rat-3007112"
+    },
+    {
+        "id": 72,
+        "head": "Похищение чародея: повести, рассказы",
+        "author": "Кир Булычев",
+        "price": "977 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/pohishchenie-charodeya-povesti-rasskazy-2958383"
+    },
+    {
+        "id": 73,
+        "head": "Непобедимый",
+        "author": "Станислав Лем",
+        "price": "231 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/nepobedimyy-2518549"
+    },
+    {
+        "id": 74,
+        "head": "Понедельник начинается в субботу",
+        "author": "Аркадий и Борис Стругацкие, Борис Стругацкий",
+        "price": "405 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/ponedelnik-nachinaetsya-v-subbotu-2761906"
+    },
+    {
+        "id": 75,
+        "head": "Улитка на склоне: фантастическая повесть",
+        "author": "Аркадий и Борис Стругацкие, Борис Стругацкий",
+        "price": "256 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/ulitka-na-sklone-fantasticheskaya-povest-2491244"
+    },
+    {
+        "id": 76,
+        "head": "Пикник на обочине",
+        "author": "Аркадий и Борис Стругацкие, Борис Стругацкий",
+        "price": "405 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/piknik-na-obochine-2759243"
+    },
+    {
+        "id": 77,
+        "head": "Люди как боги",
+        "author": "Сергей Снегов",
+        "price": "813 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/lyudi-kak-bogi-2960997"
+    },
+    {
+        "id": 78,
+        "head": "Машина времени. Человек-невидимка: романы",
+        "author": "Герберт Уэллс",
+        "price": "206 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/mashina-vremeni-chelovek-nevidimka-romany-2478203"
+    },
+    {
+        "id": 79,
+        "head": "Бог-Император Дюны",
+        "author": "Фрэнк Герберт",
+        "price": "670 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/bog-imperator-dyuny-2828830"
+    },
+    {
+        "id": 80,
+        "head": "Я, робот",
+        "author": "Айзек Азимов",
+        "price": "558 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/ya-robot-2718158"
+    },
+    {
+        "id": 81,
+        "head": "Затерянный мир",
+        "author": "Артур Дойл",
+        "price": "173 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/zateryannyy-mir-2808077"
+    },
+    {
+        "id": 82,
+        "head": "Удержать небо",
+        "author": "Лю Цысинь",
+        "price": "834 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/uderzhat-nebo-2967769"
+    },
+    {
+        "id": 83,
+        "head": "Мультиверсум",
+        "author": "",
+        "price": "534 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/multiversum-3012236"
+    },
+    {
+        "id": 84,
+        "head": "Разрезающий лабиринт",
+        "author": "Джеймс Дэшнер",
+        "price": "367 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/razrezayushchiy-labirint-2964594"
+    },
+    {
+        "id": 85,
+        "head": "День гнева. Новая сигнальная",
+        "author": "Север Гансовский",
+        "price": "977 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/den-gneva-novaya-signalnaya-3013323"
+    },
+    {
+        "id": 86,
+        "head": "Капитул Дюны",
+        "author": "Фрэнк Герберт",
+        "price": "285 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/kapitul-dyuny-3008048"
+    },
+    {
+        "id": 87,
+        "head": "Возвращение Крысы из Нержавеющей Стали",
+        "author": "Гарри Гаррисон",
+        "price": "977 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/vozvrashchenie-krysy-iz-nerzhaveyushchey-stali-3007974"
+    },
+    {
+        "id": 88,
+        "head": "Обеспечение: Полная свобода. Реал",
+        "author": "Руди Рюкер",
+        "price": "670 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/obespechenie-polnaya-svoboda-real-2995501"
+    },
+    {
+        "id": 89,
+        "head": "Капитул Дюны",
+        "author": "Фрэнк Герберт",
+        "price": "653 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/kapitul-dyuny-2832957"
+    },
+    {
+        "id": 90,
+        "head": "Хичи: Встреча с хичи. Анналы хичи",
+        "author": "Фредерик Пол",
+        "price": "994 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/hichi-vstrecha-s-hichi-annaly-hichi-2918738"
+    },
+    {
+        "id": 91,
+        "head": "Покой",
+        "author": "Джин Вулф",
+        "price": "594 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/pokoy-2945247"
+    },
+    {
+        "id": 92,
+        "head": "Будущее",
+        "author": "Дмитрий Глуховский",
+        "price": "1085 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/budushchee-2756002"
+    },
+    {
+        "id": 93,
+        "head": "Трудно быть богом",
+        "author": "Аркадий и Борис Стругацкие, Борис Стругацкий",
+        "price": "405 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/trudno-byt-bogom-2761912"
+    },
+    {
+        "id": 94,
+        "head": "Война миров",
+        "author": "Герберт Уэллс",
+        "price": "198 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/voyna-mirov-2401383"
+    },
+    {
+        "id": 95,
+        "head": "Мир смерти. Планета проклятых",
+        "author": "Гарри Гаррисон",
+        "price": "790 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/mir-smerti-planeta-proklyatyh-2945751"
+    },
+    {
+        "id": 96,
+        "head": "Автостопом по Галактике. Опять в путь",
+        "author": "Дуглас Адамс",
+        "price": "293 ₽",
+        "ref": "https://www.chitai-gorod.ru/product/avtostopom-po-galaktike-opyat-v-put-2458641"
+    }
+]

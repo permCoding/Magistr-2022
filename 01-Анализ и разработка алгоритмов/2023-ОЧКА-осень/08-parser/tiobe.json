@@ -1,0 +1,1 @@
+{"_id":"tiobe","startUrl":["https://www.tiobe.com/tiobe-index/"],"selectors":[{"id":"lang","parentSelectors":["_root"],"type":"SelectorText","selector":".table-top20 td:nth-of-type(6)","multiple":true,"regex":""}]}

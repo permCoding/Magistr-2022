@@ -1,6 +1,3 @@
-from random import shuffle
-
-
 class Node:
     def __init__(self, value):
         self.key = value  # вершина - родитель
@@ -32,24 +29,7 @@ def find_in_tree(node, finder_elm):
         return False
 
 
-tree = get_tree()  # [2, 4, 5, 6, 7]
-# print(find_in_tree(tree, 1))
+tree = get_tree()  # [3, 4, 5, 7]
 check_elements = [3, 5, 8, 4, 7, 6, 2]
 for elm in check_elements:
-    print(f"elm = {elm} => {find_in_tree(tree, elm)}")  #  а сколько шагов было сделано
-
-
-lst = list(range(1, 11))
-print(lst)
-shuffle(lst)
-print(lst)
-
-"""
-Две задачи:
-1) написать функцию построения дерева поиска
-2) подсчитать среднее количество шагов для поиска элементов в дереве
-- тут нужно принять во внимание, что дерево не будет идеально сбалансированным
-- вместо балансировки используется метод случайного наполнения дерева
-- оценить разницу между в среднем кол-ве шагов между сбалансированным деревом
-  и построенным случайным образом
-"""
+    print(f"elm = {elm} => {find_in_tree(tree, elm)}")

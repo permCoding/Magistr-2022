@@ -1,0 +1,37 @@
+[
+    {
+        "data": "2023-03-20",
+        "name": "parser-books",
+        "lang": "Python",
+        "url": "https://api.github.com/repos/permCoding/parser-books",
+        "desc": "Парсер книг магазина ЧГ"
+    },
+    {
+        "data": "2022-11-09",
+        "name": "algopro-corresp",
+        "lang": "Python",
+        "url": "https://api.github.com/repos/permCoding/algopro-corresp",
+        "desc": "Заочное обучение - Алгоритмизация и программирование"
+    },
+    {
+        "data": "2022-08-25",
+        "name": "ege-22-23",
+        "lang": "Python",
+        "url": "https://api.github.com/repos/permCoding/ege-22-23",
+        "desc": null
+    },
+    {
+        "data": "2021-09-08",
+        "name": "ege-21-22",
+        "lang": "Python",
+        "url": "https://api.github.com/repos/permCoding/ege-21-22",
+        "desc": null
+    },
+    {
+        "data": "2021-09-05",
+        "name": "algopro21",
+        "lang": "Python",
+        "url": "https://api.github.com/repos/permCoding/algopro21",
+        "desc": "Программирование для первого курса 2021-2022 "
+    }
+]

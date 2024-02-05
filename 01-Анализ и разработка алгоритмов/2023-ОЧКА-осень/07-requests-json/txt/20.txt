@@ -1,0 +1,14 @@
+{
+    "Samsung": True,
+    "Apple": False,
+    "Mitsubishi": False,
+    "Hyundai": True,
+    "Lenovo": True,
+    "Xiaomi": True,
+    "Honor": True,
+    "Huawei": False,
+    "Kia": True,
+    "Toyota": True,
+    "Nissan": True,
+    "Volkswagen": False
+}

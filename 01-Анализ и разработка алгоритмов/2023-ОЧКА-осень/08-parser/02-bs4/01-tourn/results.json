@@ -1,0 +1,112 @@
+[
+    {
+        "name": "СКА",
+        "ball_up": "243",
+        "ball_down": "150"
+    },
+    {
+        "name": "ЦСКА",
+        "ball_up": "214",
+        "ball_down": "162"
+    },
+    {
+        "name": "Локомотив",
+        "ball_up": "164",
+        "ball_down": "122"
+    },
+    {
+        "name": "Ак Барс",
+        "ball_up": "187",
+        "ball_down": "158"
+    },
+    {
+        "name": "Торпедо",
+        "ball_up": "204",
+        "ball_down": "172"
+    },
+    {
+        "name": "Динамо М",
+        "ball_up": "174",
+        "ball_down": "147"
+    },
+    {
+        "name": "Салават Юлаев",
+        "ball_up": "174",
+        "ball_down": "141"
+    },
+    {
+        "name": "Авангард",
+        "ball_up": "188",
+        "ball_down": "164"
+    },
+    {
+        "name": "Автомобилист",
+        "ball_up": "188",
+        "ball_down": "172"
+    },
+    {
+        "name": "Металлург Мг",
+        "ball_up": "189",
+        "ball_down": "175"
+    },
+    {
+        "name": "Сибирь",
+        "ball_up": "172",
+        "ball_down": "161"
+    },
+    {
+        "name": "Витязь",
+        "ball_up": "169",
+        "ball_down": "170"
+    },
+    {
+        "name": "Адмирал",
+        "ball_up": "131",
+        "ball_down": "139"
+    },
+    {
+        "name": "Северсталь",
+        "ball_up": "182",
+        "ball_down": "187"
+    },
+    {
+        "name": "Нефтехимик",
+        "ball_up": "173",
+        "ball_down": "193"
+    },
+    {
+        "name": "Трактор",
+        "ball_up": "169",
+        "ball_down": "190"
+    },
+    {
+        "name": "Амур",
+        "ball_up": "141",
+        "ball_down": "168"
+    },
+    {
+        "name": "Динамо Мн",
+        "ball_up": "175",
+        "ball_down": "201"
+    },
+    {
+        "name": "Спартак",
+        "ball_up": "154",
+        "ball_down": "192"
+    },
+    {
+        "name": "Барыс",
+        "ball_up": "153",
+        "ball_down": "194"
+    },
+    {
+        "name": "Куньлунь Ред Стар",
+        "ball_up": "152",
+        "ball_down": "226"
+    },
+    {
+        "name": "ХК Сочи",
+        "ball_up": "142",
+        "ball_down": "254"
+    }
+]

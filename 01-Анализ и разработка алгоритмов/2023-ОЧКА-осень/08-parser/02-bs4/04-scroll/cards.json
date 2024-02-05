@@ -1,0 +1,362 @@
+[
+    {
+        "id": 1,
+        "price": "$24.99",
+        "title": "Short Dress",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/90008-E/"
+    },
+    {
+        "id": 2,
+        "price": "$29.99",
+        "title": "Patterned Slacks",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/96436-A/"
+    },
+    {
+        "id": 3,
+        "price": "$49.99",
+        "title": "Short Chiffon Dress",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/93926-B/"
+    },
+    {
+        "id": 4,
+        "price": "$59.99",
+        "title": "Off-the-shoulder Dress",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/90882-B/"
+    },
+    {
+        "id": 5,
+        "price": "$24.99",
+        "title": "V-neck Top",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/93756-C/"
+    },
+    {
+        "id": 6,
+        "price": "$49.99",
+        "title": "Short Chiffon Dress",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/93926-C/"
+    },
+    {
+        "id": 7,
+        "price": "$24.99",
+        "title": "V-neck Top",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/93756-B/"
+    },
+    {
+        "id": 8,
+        "price": "$24.99",
+        "title": "V-neck Top",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/93756-D/"
+    },
+    {
+        "id": 9,
+        "price": "$59.99",
+        "title": "Short Lace Dress",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/96643-A/"
+    },
+    {
+        "id": 10,
+        "price": "$34.99",
+        "title": "Fitted Dress",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/94766-A/"
+    },
+    {
+        "id": 11,
+        "price": "$69.99",
+        "title": "V-neck Jumpsuit",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/91696-C/"
+    },
+    {
+        "id": 12,
+        "price": "$54.99",
+        "title": "Chiffon Dress",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/93745-A/"
+    },
+    {
+        "id": 13,
+        "price": "$39.99",
+        "title": "Skinny High Waist Jeans",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/65763-E/"
+    },
+    {
+        "id": 14,
+        "price": "$19.99",
+        "title": "Super Skinny High Jeans",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/70745-D/"
+    },
+    {
+        "id": 15,
+        "price": "$19.99",
+        "title": "Oversized Denim Jacket",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/94706-A/"
+    },
+    {
+        "id": 16,
+        "price": "$24.99",
+        "title": "Short Sweatshirt",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/96230-B/"
+    },
+    {
+        "id": 17,
+        "price": "$12.99",
+        "title": "Long-sleeved Jersey Top",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/73840-F/"
+    },
+    {
+        "id": 18,
+        "price": "$39.99",
+        "title": "Skinny High Waist Jeans",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/65763-A/"
+    },
+    {
+        "id": 19,
+        "price": "$24.99",
+        "title": "Short Sweatshirt",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/96230-A/"
+    },
+    {
+        "id": 20,
+        "price": "$12.99",
+        "title": "Long-sleeved Jersey Top",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/73840-P/"
+    },
+    {
+        "id": 21,
+        "price": "$12.99",
+        "title": "Long-sleeved Jersey Top",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/73840-Q/"
+    },
+    {
+        "id": 22,
+        "price": "$19.99",
+        "title": "Jersey Dress",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/96113-C/"
+    },
+    {
+        "id": 23,
+        "price": "$24.99",
+        "title": "Short Sweatshirt",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/96230-C/"
+    },
+    {
+        "id": 24,
+        "price": "$24.99",
+        "title": "Crinkled Flounced Blouse",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/00959-A/"
+    },
+    {
+        "id": 25,
+        "price": "$29.99",
+        "title": "Bib Overall Dress",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/94323-B/"
+    },
+    {
+        "id": 26,
+        "price": "$17.99",
+        "title": "Loose-knit Sweater",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/71342-J/"
+    },
+    {
+        "id": 27,
+        "price": "$29.99",
+        "title": "Skinny Regular Jeans",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/94453-B/"
+    },
+    {
+        "id": 28,
+        "price": "$12.99",
+        "title": "Henley-style Top",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/34975-K/"
+    },
+    {
+        "id": 29,
+        "price": "$17.99",
+        "title": "Joggers",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/59851-A/"
+    },
+    {
+        "id": 30,
+        "price": "$34.99",
+        "title": "Skirt with Lacing",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/93811-A/"
+    },
+    {
+        "id": 31,
+        "price": "$17.99",
+        "title": "Top with Tie",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/94967-A/"
+    },
+    {
+        "id": 32,
+        "price": "$34.99",
+        "title": "Joggers",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/92905-A/"
+    },
+    {
+        "id": 33,
+        "price": "$49.99",
+        "title": "Chiffon Dress with Flounce",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/97504-A/"
+    },
+    {
+        "id": 34,
+        "price": "$34.99",
+        "title": "Skirt with Lacing",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/93811-B/"
+    },
+    {
+        "id": 35,
+        "price": "$9.99",
+        "title": "V-neck Top",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/95168-D/"
+    },
+    {
+        "id": 36,
+        "price": "$29.99",
+        "title": "Hooded Jacket",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/52378-D/"
+    },
+    {
+        "id": 37,
+        "price": "$29.99",
+        "title": "Hooded Top",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/60135-A/"
+    },
+    {
+        "id": 38,
+        "price": "$34.99",
+        "title": "Lyocell-blend Blouse",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/91865-A/"
+    },
+    {
+        "id": 39,
+        "price": "$29.99",
+        "title": "Bib Overall Dress",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/94323-A/"
+    },
+    {
+        "id": 40,
+        "price": "$34.99",
+        "title": "Wide-leg Pants",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/92942-B/"
+    },
+    {
+        "id": 41,
+        "price": "$24.99",
+        "title": "Ankle-length Slim-fit Pants",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/93270-A/"
+    },
+    {
+        "id": 42,
+        "price": "$9.99",
+        "title": "Short Sweatshirt",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/96230-D/"
+    },
+    {
+        "id": 43,
+        "price": "$17.99",
+        "title": "V-neck Blouse",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/97571-B/"
+    },
+    {
+        "id": 44,
+        "price": "$24.99",
+        "title": "Short Skirt",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/92740-A/"
+    },
+    {
+        "id": 45,
+        "price": "$17.99",
+        "title": "Mesh T-shirt",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/94984-A/"
+    },
+    {
+        "id": 46,
+        "price": "$59.99",
+        "title": "Blouse with Embroidery",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/96236-C/"
+    },
+    {
+        "id": 47,
+        "price": "$34.99",
+        "title": "Wide-cut Cotton Top",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/99663-A/"
+    },
+    {
+        "id": 48,
+        "price": "$54.99",
+        "title": "Pleated Skirt",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/00268-B/"
+    },
+    {
+        "id": 49,
+        "price": "$69.99",
+        "title": "Coat",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/98209-A/"
+    },
+    {
+        "id": 50,
+        "price": "$49.99",
+        "title": "Wide-leg Pants",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/93158-A/"
+    },
+    {
+        "id": 51,
+        "price": "$29.99",
+        "title": "Top",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/00948-B/"
+    },
+    {
+        "id": 52,
+        "price": "$69.99",
+        "title": "Knit Mohair-blend Sweater",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/94321-B/"
+    },
+    {
+        "id": 53,
+        "price": "$69.99",
+        "title": "Dress",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/98086-A/"
+    },
+    {
+        "id": 54,
+        "price": "$29.99",
+        "title": "T-shirt with Embroidery",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/01007-C/"
+    },
+    {
+        "id": 55,
+        "price": "$49.99",
+        "title": "Blouse with Ruffled Collar",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/98894-A/"
+    },
+    {
+        "id": 56,
+        "price": "$49.99",
+        "title": "Pants",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/00286-B/"
+    },
+    {
+        "id": 57,
+        "price": "$19.99",
+        "title": "Jersey Dress",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/96113-B/"
+    },
+    {
+        "id": 58,
+        "price": "$6.99",
+        "title": "T-shirt",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/96771-B/"
+    },
+    {
+        "id": 59,
+        "price": "$6.99",
+        "title": "T-shirt",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/96771-A/"
+    },
+    {
+        "id": 60,
+        "price": "$49.99",
+        "title": "Blazer",
+        "href": "https://scrapingclub.com/exercise/list_basic_detail/93086-B/"
+    }
+]
