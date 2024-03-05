@@ -1,5 +1,8 @@
-const sqlite3 = require('sqlite3').verbose() // npm install --save sqlite3
-const db = new sqlite3.Database('./test01.sqlite3')
+const sqlite3 = require('sqlite3').verbose(), // npm i sqlite3
+	fs = require("fs"),
+	log = console.log,
+	fileDB = './testDB.sqlite3',
+	db = new sqlite3.Database(fileDB)
 
 const getRandomName = () => {
 	let alphavit = 'abcdefghqijklmnoprstuvwxyz'
@@ -72,13 +75,29 @@ const select = () => {
 	db.close()
 }
 
+const printSizeDB = () => {
+	if (fs.existsSync(fileDB)) {
+		log(fs.statSync(fileDB).size)
+	}
+}
+
 // createTable()
 // deleteTable()
-insertData(10_000)
+// insertData(100_000)
 // createIndex()
 // deleteIndex()
 
 // select()
+
+// printSizeDB()
+
+/*
+для 100_000 записей
+без индекса - размер 2 Mb; время select 20 ms
+ с индексом - размер 4 Mb; время select 10 ms
+*/
+
+
 
 /*
 
