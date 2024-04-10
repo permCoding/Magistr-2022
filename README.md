@@ -8,9 +8,8 @@
 к.т.н, доцент, доцент кафедры ИТиПИ  
 email: belyakov.au@ya.ru  
 [telegram](https://t.me/AndreyPerm)
-[Кабинет для онлайн занятий bbb3](https://bbb3.psaa.ru/b/6xn-a4i-sbu-n77)  
 [Кабинет для онлайн занятий bbb](https://bbb.psaa.ru/rooms/gpm-vn9-df4-qfg/join)  
-[Кабинет для онлайн занятий bbb6](https://bbb6.psaa.ru/b/cxy-tmy-6rl-vyv)  
+[Кабинет для онлайн занятий bbb3 - резервный](https://bbb3.psaa.ru/b/6xn-a4i-sbu-n77)  
 [Анкетирование, тестирование EXAM](http://exam.1gb.ru/)  
 [Задачи на Stepik`е](https://stepik.org/course/82800/syllabus)  
 
