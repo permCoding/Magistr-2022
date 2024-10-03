@@ -4,6 +4,8 @@
 ---  
 
 ```py
+# py
+
 a = list(map(int, input().split()))
 b = list(map(int, input().split()))
 
@@ -18,6 +20,8 @@ print(not(dist > r1+r2 or dist + min(r1,r2) < max(r1,r2)))
 ---  
 
 ```py
+# py
+
 x1, y1, r1 = map(int, input().split())
 x2, y2, r2 = map(int, input().split())
 
@@ -29,6 +33,8 @@ print( dist <= r1+r2 and dist + min(r1,r2) >= max(r1,r2) )
 ---  
 
 ```js
+// js
+
 const lines = require('fs').readFileSync(0, 'utf8').split('\n');
 
 const [x1, y1, r1] = lines[0].split(' ').map(Number);
@@ -44,6 +50,8 @@ console.log( a && b ? 'True' : 'False');
 ---  
 
 ```cs
+// cs
+
 using System;
 using System.Linq;
 using System.Collections.Generic;
