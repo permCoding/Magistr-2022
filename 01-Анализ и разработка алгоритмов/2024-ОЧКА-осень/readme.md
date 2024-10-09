@@ -61,6 +61,23 @@
 
 Задание 4  
 
+Yandex.Contest  
+
+
+**Пробный тур:**  
+
+- простые задачи, чтобы проверить как это работает  
+- ссылка для входа по Логину/Паролю: https://official.contest.yandex.ru/contest/27283/enter/  
+
+**Основной тур:**  
+
+- простые задачи, на знание базового синтаксиса языка  
+- ссылка для входа по Логину/Паролю: https://official.contest.yandex.ru/contest/19616/enter/  
+
+---  
+
+Задание 5  
+
 Задача про сумму двух чисел:  
 
 https://leetcode.com/problems/two-sum/description/
