@@ -67,21 +67,19 @@ Yandex.Contest
 Решаем задачи на Stepik  
 Курс: Анализ и разработка алгоритмов  
 Урок: [Пары чисел](https://stepik.org/lesson/1465039/step/1?unit=1484624)  
-Там 4 задачи.  
+[Как подавать решения](https://stepik.org/lesson/403589/step/1?unit=392730)  
 
-Задачу про сумму двух чисел вы сможете найти и порешать на LeetCode:  
-
-https://leetcode.com/problems/two-sum/description/
-
-```txt
-Given an array of integers num and an integer target, return indices of the two numbers such that they add up to target.  
-You can return the answer in any order.  
-You may assume that each input would have exactly one solution, and you may not use the same element twice.
-```
-
+Задачу про сумму двух чисел вы сможете найти и порешать на LeetCode - https://leetcode.com/problems/two-sum/description/  
 Там же вы сможете найти и подходы к решению...  
 
-Для 4-ой задачи было трудно подобрать пропорцию времени на решение в зависимости от языка программирования. Надеюсь получилось. Компьютер на Stepik работает медленнее, чем старый Intel Celeron. Я подгонял как смог.   
+```txt
+Given an array of integers num and an integer target, 
+return indices of the two numbers such that they add up to target.  
+You can return the answer in any order. You may assume that each input 
+would have exactly one solution, and you may not use the same element twice.
+```
+
+Для 4-ой задачи было трудно подобрать пропорцию времени на решение в зависимости от языка программирования. Надеюсь получилось более-менее. Компьютер на Stepik работает медленнее, чем старый Intel Celeron. Я подгонял "на глазок".  
 
 ---  
 
