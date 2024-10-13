@@ -70,7 +70,7 @@ Yandex.Contest
 [Как подавать решения](https://stepik.org/lesson/403589/step/1?unit=392730)  
 
 Задачу про сумму двух чисел вы сможете найти и порешать на LeetCode - https://leetcode.com/problems/two-sum/description/  
-Там же вы сможете найти и подходы к решению...  
+Там же вы сможете найти и подходы к решению, замеры времени исполнения и расходуемой памяти и сравнение с другими поданными решениями.  
 
 ```txt
 Given an array of integers num and an integer target, 
