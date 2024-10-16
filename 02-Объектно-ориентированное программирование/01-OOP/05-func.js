@@ -6,12 +6,11 @@ let ex01 = () => {
         this.y = y || 1; // так как на ноль делить нельзя - лучше сделать setter
         this.get_divmod = function() {
             let a = this.x, b = this.y;
-            console.log(a, b);
             return { 'div': Math.floor(a/b), 'mod': a%b };
         }
         // return this;
     }
-    
+    // const obj0 = GetObject(7, 3); // без new thrown
     const obj1 = new GetObject(7, 3);
     const obj2 = new GetObject(12, 10);
     obj2.y += 100; // проверка - объекты разные
@@ -62,6 +61,6 @@ let ex03 = () => {
 }
 
 console.clear();
-// ex01();
+ex01();
 // ex02();
-ex03();
+// ex03();

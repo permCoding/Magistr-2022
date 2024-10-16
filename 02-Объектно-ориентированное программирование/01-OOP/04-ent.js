@@ -26,6 +26,7 @@ let ex03 = () => {
     let map = new Map();
     map.set("aaa", 111);
     map.set("bbb", 222);
+    console.log(map);
     let obj = Object.fromEntries(map); // объект из коллекции
     
     obj.cccp = 1972;

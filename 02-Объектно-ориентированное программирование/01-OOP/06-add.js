@@ -2,7 +2,8 @@
 
 let methods = {
     'increment': function () { this.value++; },
-    'display' : function () { console.log(this.value); }
+    'display' : function () { console.log(this.value); },
+    'disp' : () => console.log(this.value)
 }; // не получится использовать стрелочные функции - на них нет reference
 
 function add_methods(object, methods) {
@@ -18,6 +19,7 @@ const obj = { value: 3 };
 
 add_methods(obj, methods);
 
-obj.display();  // "3"
-obj.increment();
-obj.display();  // "4"
+obj.display();   // "3"
+obj.increment(); 
+obj.display();   // "4"
+obj.disp();      // undefined

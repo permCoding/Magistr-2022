@@ -39,5 +39,5 @@ const ex02 = () => {
 const int_div = (a, b) => Math.floor(a/b)
 
 console.clear()
-// ex01()
-ex02()
+ex01()
+// ex02()

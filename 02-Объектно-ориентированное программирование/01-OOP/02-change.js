@@ -63,7 +63,7 @@ const ex05 = () => {
 }
 
 /** оператор spread (расширения) для объектов */
-const ex06 = (key="new_key") => {
+const ex06 = () => {
     let obj = { a: 1, b: 2, c: 3 }
     let { a, ...x } = obj;
     console.log(a, x)

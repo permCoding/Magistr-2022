@@ -9,7 +9,7 @@ car._year = 2012;
 
 Object.defineProperty(car, "year", {
     set: function(value) {
-        this._year = ((value>1900) && (value<2023))? value: 0;
+        this._year = ((value>1900) && (value<2024))? value: 0;
     },
     get: function() {
         return this._year % 100;
@@ -18,8 +18,9 @@ Object.defineProperty(car, "year", {
     configurable: true
 });
 
-console.clear();
+// console.clear();
 console.log(car);
 car.year = 2021;
 console.log(car);
 console.log(`year = ${car.year}`);
+console.log(`year = ${car._year}`);
