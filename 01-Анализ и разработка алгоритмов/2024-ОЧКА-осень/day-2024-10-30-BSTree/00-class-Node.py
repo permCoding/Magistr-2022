@@ -9,7 +9,7 @@ class Node:
         
     def __repr__(self):
         return f"key = {self.key}"
-        
+
 
 print(Node(666))
 

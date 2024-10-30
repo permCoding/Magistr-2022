@@ -21,7 +21,8 @@ def sort_heap(arr):  # отсортировать кучу
     for right in range(len(arr)-1, 0, -1):
         swap(arr, 0, right)  # max на правую границу, эл-нт в 0
         down_elm(arr, 0, right)  # погрузить нулевой эл-нт до < right
-    return arr
+    return arr  # возврщаем отсортированный массив
+
 
 # пирамидальная сортировка (максимальная куча)
 lst = [3,1,2,4,2,9]  # неотсортированный список
@@ -29,6 +30,9 @@ heap = get_heap(lst)  # получить максимальную кучу
 print(heap)  # [9, 4, 3, 1, 2, 2] - max-куча
 srt = sort_heap(heap)  # отсортировать
 print(srt)  # [1, 2, 2, 3, 4, 9] - отсортирован
+
+
+
 
 # from random import randint as rnd
 # from timeit import default_timer as dt

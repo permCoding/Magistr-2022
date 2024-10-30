@@ -47,16 +47,32 @@ class BST:
             else:
                 return self._search(node.right, value)
         else:
-            return node
+            return None
+
+    def print_tree(self):
+        self._print_tree(self.root)
+    
+    def _print_tree(self, node, deep=0):
+        if node:
+            self._print_tree(node.right, deep+1)
+            print(f"{4*' '*deep}{node.key}")
+            self._print_tree(node.left, deep+1)
 
 
-lst = [rnd(1, 1_000) for _ in range(15)]  # если сбалансировано - то 4 уровня
+# lst = [rnd(1, 1_000) for _ in range(15)]  # если сбалансировано - то 4 уровня
+lst = list(range(15))  # n*log(n)
+
+from random import shuffle
+shuffle(lst)
+
+# 1/5 * 1/4 * 1/3 * 1/2 * 1
 print(lst)
 
-_bst = BST()
-for elm in lst: _bst.insert(elm)
+tree = BST()
+for elm in lst:
+    tree.insert(elm)
 
-search_elm = lst[rnd(0, len(lst)-1)]
-print(search_elm)
+tree.print_tree()
 
-print( _bst.search(search_elm) )
+# search_elm = 23
+# print( tree.search(search_elm) )

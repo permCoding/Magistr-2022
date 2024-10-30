@@ -23,18 +23,16 @@ def search(node, value):
     else:
         return None
 
-# print(Node(666))
 node5 = Node(5)  # root
 node8 = Node(8)
 node3 = Node(3)
 node4 = Node(4)
 node6 = Node(6)
 
-# print(node5)
-
 node5.left = node3
-node3.right = node4
 node5.right = node6
+
+node3.right = node4
 node6.right = node8
 
 print(node5)
