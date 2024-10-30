@@ -12,6 +12,7 @@ def arr_to_bst(arr):
     node.left  = arr_to_bst(arr[:mid])    # формируем ему левое поддерево
     node.right = arr_to_bst(arr[mid+1:])  # и правое поддерево
     return node  # готовый узел возвращаем
+    # задание - сделать метод без расходования дополнит памяти
 
 
 def print_bst(node, deep=0):
@@ -22,6 +23,7 @@ def print_bst(node, deep=0):
 
 
 arr = [7, 2, 5, 4, 3, 6, 1]
+# сделаем максимально плохой случай для формирования дерева
 arr = sorted(arr)  # [1, 2, 3, 4, 5, 6, 7]
 bst = arr_to_bst(arr)
 print_bst(bst)
