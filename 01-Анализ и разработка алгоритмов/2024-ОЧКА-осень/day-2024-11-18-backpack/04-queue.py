@@ -22,15 +22,16 @@ class Backpack:
                     queue.append((current_level + 1, new_value, new_weight))      # 1. добавляем в очередь
                 queue.append((current_level + 1, current_value, current_weight))  # 2. добавляем в очередь
 
-        return self.max_value  # result - список id объектов, взятых в рюкзак
+        return self.max_value, []  # добавить заполнение списка взятых объектов
 
 
 if __name__ == "__main__":
     import json
     with open('./json/input4.json') as file:
         data = json.load(file)  # исходные данные
-    max_w = 91  # размер ранца
+    max_w = 100  # размер ранца
     backpack = Backpack(max_w, data)
-    max_value, result = backpack.solve(), []  # добавить возвращение списка id объектов, взятых в рюкзак
+    max_value, result = backpack.solve(), []  # ценность и список id объектов, взятых в рюкзак
     print(f"Максимальная ценность рюкзака: {max_value}")
-    print(f"Объекты в рюкзаке: {result}")
+    print("Объекты в рюкзаке:")
+    print(json.dumps(result, indent=4, ensure_ascii=False))
