@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "weight": 50,
+        "value": 100
+    },
+    {
+        "id": 2,
+        "weight": 40,
+        "value": 90
+    },
+    {
+        "id": 3,
+        "weight": 30,
+        "value": 80
+    },
+    {
+        "id": 4,
+        "weight": 20,
+        "value": 70
+    }
+]
