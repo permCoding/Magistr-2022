@@ -31,7 +31,7 @@ if __name__ == "__main__":
         data = json.load(file)  # исходные данные
     max_w = 100  # размер ранца
     backpack = Backpack(max_w, data)
-    max_value, result = backpack.solve(), []  # ценность и список id объектов, взятых в рюкзак
+    max_value, result = backpack.solve()  # ценность и список id объектов, взятых в рюкзак
     print(f"Максимальная ценность рюкзака: {max_value}")
     print("Объекты в рюкзаке:")
     print(json.dumps(result, indent=4, ensure_ascii=False))

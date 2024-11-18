@@ -18,9 +18,9 @@ class Greedy:
 
 if __name__ == "__main__":
     import json
-    with open('./json/input4.json') as file:
+    with open('./json/input30.json') as file:
         data = json.load(file)  # исходные данные
-    max_w = 100  # размер ранца
+    max_w = 150  # размер ранца
     greedy = Greedy(max_w, data)
     max_value, result = greedy.solve()  # ценность и список id объектов, взятых в рюкзак
     print(f"Максимальная ценность рюкзака: {max_value}")
