@@ -1,4 +1,5 @@
 def gen_combinations(items):
+    
     def _gen_combs(combo=[], level=0):
         yield combo  # Возвращаем текущую комбинацию
         for i in range(level, len(items)):

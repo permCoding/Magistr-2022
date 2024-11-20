@@ -1,12 +1,13 @@
-def  get_combinations(items):
-    combs = []
+def get_combinations(items):
+    
     def gen_combs(combo=[], level=0):
-        combs.append(combo[:])  # нужно делать клон
+        combs.append(combo)
+        # combs.append(combo[:])  # нужно делать клон ?
         for i in range(level, len(items)):  # найти все оставшиеся
             gen_combs(combo+[items[i]], i+1)
     
+    combs = []
     gen_combs()
-    
     return sorted(combs, key=lambda x: len(x))
 
 

@@ -16,13 +16,14 @@ class Greedy:
 
     def solve(self):
         self.items.sort(key=lambda item: item.value/item.weight, reverse=True)
-        weight_items, i = 0, 0  # текущий вес набора и текущий индекс объекта
-        while True:
+        weight_items = 0  # текущий вес набора
+        
+        for i in range(len(self.items)):  #  текущий индекс объекта
             next_item = self.items[i]
             if weight_items + next_item.weight > self.capacity: break
             weight_items += next_item.weight
             self.max_value += next_item.value
-            i += 1
+        
         return self.max_value, self.items[0: i]
 
 
@@ -59,9 +60,8 @@ class Recurs:
     def solve(self):
         def search_combo(combo, deep):
                 if deep == len(self.items):
-                    new_combo = combo[:]  # новая комбинация объектов
                     cur_weight, cur_value = 0, 0
-                    for item in new_combo:
+                    for item in combo:  # найденная комбинация объектов
                         cur_weight += item.weight
                         cur_value += item.value
                     if cur_weight <= self.capacity:  # если входит в ограничения
@@ -87,6 +87,7 @@ class Que:
     def solve(self):
         queue = []  # queue для хранения узлов
         root = (0, 0, 0.0)  # (уровень, текущая ценность, текущий вес)
+            # можно использовать вещественные значения
         queue.append(root)
         
         while queue:  # пока очередь не пуста
@@ -154,8 +155,8 @@ class Genetic:
 
         for generation in range(generations):
             population = self.selection(population)
+            
             next_population = []
-
             while len(next_population) < population_size:
                 parent1 = random.choice(population)
                 parent2 = random.choice(population)
@@ -163,7 +164,6 @@ class Genetic:
                 if random.random() < 0.1:  # 10% вероятность мутации
                     self.mutate(child)
                 next_population.append(child)
-
             population = next_population
 
         # Найдем лучший индивидуум в финальной популяции
@@ -182,9 +182,7 @@ class Genetic:
     def fitness(self, individual):
         weight = self.calculate_weight(individual)
         value = self.calculate_value(individual)
-        if weight > self.capacity:
-            return 0  # Низкая пригодность, если превышен вес
-        return value
+        return 0 if weight > self.capacity else value  # Низкая пригодность, если превышен вес
     
     def crossover(self, parent1, parent2):
         crossover_point = random.randint(1, len(parent1) - 1)
