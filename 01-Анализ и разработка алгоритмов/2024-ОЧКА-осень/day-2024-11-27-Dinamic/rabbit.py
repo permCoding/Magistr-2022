@@ -62,10 +62,7 @@ def get_dinamic(k, n):
     return dp[n]
 
 
-# s = '3 4'  # 7
-# s = '2 7'  # 21
-# s = '3 10'  # 274
-s = '5 20'  # 400096
+s = '3 4'  # 7
 # s = input()
 k, n = map(int, s.split())
 
