@@ -153,22 +153,21 @@ class Genetic:
     def solve(self, population_size=30, generations=50):
         population = self.create_population(population_size)
 
-        for generation in range(generations):
-            population = self.selection(population)
+        for generation in range(generations):  # по всем поколениям
+            population = self.selection(population)  # берём половину лучших
             
             next_population = []
-            while len(next_population) < population_size:
+            while len(next_population) < population_size:  # пока не наберём следующее поколение
                 parent1 = random.choice(population)
                 parent2 = random.choice(population)
-                child = self.crossover(parent1, parent2)
+                child = self.crossover(parent1, parent2)  # скрещиваем две случайные особи
                 if random.random() < 0.1:  # 10% вероятность мутации
                     self.mutate(child)
                 next_population.append(child)
             population = next_population
 
-        # Найдем лучший индивидуум в финальной популяции
-        best_individual = max(population, key=lambda ind: self.fitness(ind))
-        return self.calculate_value(best_individual), self.get_combo_objects(best_individual)
+        best = max(population, key=lambda ind: self.fitness(ind))  # лучшая особь в финальной популяции
+        return self.calculate_value(best), self.get_combo_objects(best)
 
     def get_combo_objects(self, individual):
         return [item for i, item in enumerate(self.items) if individual[i] == 1]
@@ -185,14 +184,14 @@ class Genetic:
         return 0 if weight > self.capacity else value  # Низкая пригодность, если превышен вес
     
     def crossover(self, parent1, parent2):
-        crossover_point = random.randint(1, len(parent1) - 1)
+        crossover_point = random.randint(1, len(parent1) - 1)  # скрещиваем по случайной позиции
         return parent1[:crossover_point] + parent2[crossover_point:]
 
     def mutate(self, individual):
-        mutation_point = random.randint(0, len(individual) - 1)
+        mutation_point = random.randint(0, len(individual) - 1)  # случайная позиция для мутации
         individual[mutation_point] = 1 - individual[mutation_point]  # Переключаем 0 на 1 или наоборот
     
-    def selection(self, population):
+    def selection(self, population):  # выберем из популяции половину лучших особей
         weighted_population = [(self.fitness(ind), ind) for ind in population]
         weighted_population.sort(reverse=True, key=lambda x: x[0])
         return [ind for _, ind in weighted_population[:len(population) // 2]]
@@ -202,7 +201,7 @@ class Genetic:
         for _ in range(population_size):
             # Генерируем индивидуум с случайным набором предметов
             individual = [random.randint(0, 1) for _ in range(len(self.items))]
-            while self.calculate_weight(individual) > self.capacity:
+            while self.calculate_weight(individual) > self.capacity:  # но такой, чтобы влез в ограничения
                 individual = [random.randint(0, 1) for _ in range(len(self.items))]
             population.append(individual)
         return population
