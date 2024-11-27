@@ -35,12 +35,17 @@ class BinMask:
 
     def solve(self):
         amount_combs = 1 << len(self.items)  # общее кол-во комбинаций
+        # 1(10) => 0001(2) => 0010(2) => 0100(2)
         for i in range(amount_combs):  # индекс комбинации
             cur_weight, cur_value = 0, 0
             
-            for j in range(len(self.items)):
-                mask = 1 << j  # выбираем индекс объекта
+            for j in range(len(self.items)):  # j - индекс предмета
+                # 0101(2) => 5(10) => i - комбинация
+                mask = 1 << j  # выбираем индекс объекта - 1 2 4 8 16 
                 if (i & mask > 0):  # если он есть в комбинации
+                    #    i = 5 => 0101
+                    # mask = 4 => 0100
+                    #        & => 0100  => (== 0); (>0)
                     next_item = self.items[j]  # следующий объект
                     cur_weight += next_item.weight
                     cur_value += next_item.value
@@ -70,7 +75,7 @@ class Recurs:
                 else:
                     combo.append(self.items[deep])  # 1 взяли объект в рюкзак
                     search_combo(combo, deep+1)
-                    combo.pop()                   # 2 НЕ взяли объект в рюкзак
+                    combo.pop()                     # 2 НЕ взяли объект в рюкзак
                     search_combo(combo, deep+1)
             
         search_combo([], 0)  # поиск комбинации
@@ -95,7 +100,7 @@ class Que:
 
             if current_level < len(self.items):  # есть ли ещё объекты
                 next_item = self.items[current_level]  # следующий объект
-                # две ветви дерева перебора: 1. с включением и 2. без включением следующего объекта
+                # две ветви дерева перебора: 1. с включением и 2. без включения следующего объекта
                 if current_weight + next_item.weight <= self.capacity:  # не входит по весу
                     new_value = current_value + next_item.value
                     new_weight = current_weight + next_item.weight
@@ -121,8 +126,8 @@ class Dinamic:
             tab.append(tr)  # добавляем в таблицу
             
         col = 0  # формируем левый столбец, col - индекс объекта
+        item = self.items[col]
         for row in range(self.capacity+1):  # по всем строкам - размерам рюкзака
-            item = self.items[col]
             if row >= item.weight:  # если размер рюкзака больше веса предмета
                 tab[row][col].weight = item.weight
                 tab[row][col].value = item.value
@@ -194,7 +199,7 @@ class Genetic:
     def selection(self, population):  # выберем из популяции половину лучших особей
         weighted_population = [(self.fitness(ind), ind) for ind in population]
         weighted_population.sort(reverse=True, key=lambda x: x[0])
-        return [ind for _, ind in weighted_population[:len(population) // 2]]
+        return [ind for _, ind in weighted_population[0:len(population) // 2]]
     
     def create_population(self, population_size):
         population = []

@@ -1,3 +1,6 @@
+from functools import lru_cache
+
+
 def get_rec(k, n):
     if n < 0: return 0
     if n < 1: return 1
@@ -21,20 +24,15 @@ def get_rec_cash(k, n):
     tab = [1] + [0] * n
     return _rec_cash(k, n)
 
-
+   
+@lru_cache  # Decorator to function with a memoizing
 def get_lru_cash(k, n):
-    from functools import lru_cache
-    
-    @lru_cache  # Decorator to function with a memoizing
-    def _get(k, n):
-        if n < 0: return 0
-        if n < 1: return 1
-        sm = 0
-        for i in range(1, k+1):
-            sm += _get(k, n-i)
-        return sm
-
-    return _get(k, n)
+    if n < 0: return 0
+    if n < 1: return 1
+    sm = 0
+    for i in range(1, k+1):
+        sm += get_lru_cash(k, n-i)
+    return sm
 
 
 def get_queue(k, n):
@@ -47,7 +45,7 @@ def get_queue(k, n):
     while not q.empty():
         t = q.get()
         if t == n: amount += 1
-        for i in range(1, k+1):            
+        for i in range(1, k+1):
             if t+i <= n:
                 q.put(t+i)
 
@@ -59,10 +57,11 @@ def get_dinamic(k, n):
     for pos in range(n):
         for i in range(1, k+1):
             dp[pos+i] += dp[pos]
+        # print(dp)
     return dp[n]
 
 
-s = '3 4'  # 7
+s = '7 14'  # 7
 # s = input()
 k, n = map(int, s.split())
 
