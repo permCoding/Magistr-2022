@@ -1,0 +1,142 @@
+[
+  {
+    "curr": 1,
+    "prev": 1,
+    "pro_lang": "Python",
+    "rating": 24.45,
+    "change": 2.55
+  },
+  {
+    "curr": 2,
+    "prev": 4,
+    "pro_lang": "C",
+    "rating": 9.29,
+    "change": 0.91
+  },
+  {
+    "curr": 3,
+    "prev": 2,
+    "pro_lang": "C++",
+    "rating": 8.84,
+    "change": -2.77
+  },
+  {
+    "curr": 4,
+    "prev": 3,
+    "pro_lang": "Java",
+    "rating": 8.35,
+    "change": -2.15
+  },
+  {
+    "curr": 5,
+    "prev": 5,
+    "pro_lang": "C#",
+    "rating": 6.94,
+    "change": 1.32
+  },
+  {
+    "curr": 6,
+    "prev": 6,
+    "pro_lang": "JavaScript",
+    "rating": 3.41,
+    "change": -0.13
+  },
+  {
+    "curr": 7,
+    "prev": 7,
+    "pro_lang": "Visual Basic",
+    "rating": 3.22,
+    "change": 0.87
+  },
+  {
+    "curr": 8,
+    "prev": 8,
+    "pro_lang": "Go",
+    "rating": 1.92,
+    "change": -0.1
+  },
+  {
+    "curr": 9,
+    "prev": 10,
+    "pro_lang": "Delphi/Object Pascal",
+    "rating": 1.86,
+    "change": 0.19
+  },
+  {
+    "curr": 10,
+    "prev": 11,
+    "pro_lang": "SQL",
+    "rating": 1.77,
+    "change": 0.13
+  },
+  {
+    "curr": 11,
+    "prev": 9,
+    "pro_lang": "Fortran",
+    "rating": 1.7,
+    "change": -0.1
+  },
+  {
+    "curr": 12,
+    "prev": 29,
+    "pro_lang": "Perl",
+    "rating": 1.66,
+    "change": 1.1
+  },
+  {
+    "curr": 13,
+    "prev": 17,
+    "pro_lang": "R",
+    "rating": 1.52,
+    "change": 0.43
+  },
+  {
+    "curr": 14,
+    "prev": 15,
+    "pro_lang": "PHP",
+    "rating": 1.38,
+    "change": 0.17
+  },
+  {
+    "curr": 15,
+    "prev": 16,
+    "pro_lang": "Assembly language",
+    "rating": 1.2,
+    "change": 0.07
+  },
+  {
+    "curr": 16,
+    "prev": 13,
+    "pro_lang": "Rust",
+    "rating": 1.19,
+    "change": -0.25
+  },
+  {
+    "curr": 17,
+    "prev": 12,
+    "pro_lang": "MATLAB",
+    "rating": 1.16,
+    "change": -0.32
+  },
+  {
+    "curr": 18,
+    "prev": 14,
+    "pro_lang": "Scratch",
+    "rating": 1.15,
+    "change": -0.26
+  },
+  {
+    "curr": 19,
+    "prev": 24,
+    "pro_lang": "Ada",
+    "rating": 0.98,
+    "change": 0.25
+  },
+  {
+    "curr": 20,
+    "prev": 21,
+    "pro_lang": "Kotlin",
+    "rating": 0.98,
+    "change": 0.01
+  }
+]
