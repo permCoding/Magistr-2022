@@ -1,6 +1,12 @@
 // запуск из терминала или из редактора кода
 
-const a = "100", b = "99";
+// var
+
+let a = " 'a = ' 100 ", b = "99";
+
+console.log(a);
+
+a = '100';
 
 if (a > b) {
     console.log(a);
@@ -8,4 +14,7 @@ if (a > b) {
     console.log(b); // почему 99 ?
 }
 
-a = Number(a) // так нельзя - const
+console.log(1 == '1'); // true
+console.log(1 === '1'); // false
+
+// a = Number(a) // так нельзя - const
