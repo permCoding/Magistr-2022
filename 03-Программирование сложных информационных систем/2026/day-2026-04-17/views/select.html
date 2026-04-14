@@ -1,0 +1,143 @@
+<style>
+    body {
+        font-size:1.2em;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    table {
+        margin: 0 auto; /* Выравнивание по центру */
+        border: 0px solid black; /* Пример границы для таблицы */
+        width: 60%; /* Ширина таблицы (необязательно) */
+    }
+    .citata {
+        font-size: 1.8em;
+        align-items: center;
+        justify-content: center;
+        color: #567572;
+    }
+    .inp {
+        width: 250px;
+        height: 40px;
+        font-size:1.1em;
+    }
+    .btn { 
+        color:#FFFFFF;
+        cursor:pointer;
+        font-size:1.1em;
+        border: solid 1px #eb4b4b;
+        border-radius:5px;
+        background:#eb4b4b;
+        width: 250px;
+        height: 55px;
+        margin: 0px 3px;
+        padding: 0px 0px;
+    }
+    .btn:hover {
+        background:#ffffff;
+        color: #000;
+        border: solid 1px #eb4b4b;
+    }
+    .select-wrapper {
+        position: relative;
+        display: inline-block;
+        width: 200px; /* Ширина обертки */
+    }
+    .select-wrapper select {    /* Стили для самого селекта */
+        appearance: none; /* Убираем стандартный стиль браузера */
+        -webkit-appearance: none; /* Для Safari */
+        -moz-appearance: none; /* Для Firefox */
+        width: 100%; /* Ширина будет на всю обертку */
+        padding: 10px; /* Внутренний отступ */
+        border: 1px solid #ccc; /* Цвет и стиль рамки */
+        border-radius: 5px; /* Скругленные углы */
+        background-color: #fff; /* Фоновый цвет */
+        font-size: 16px; /* Размер шрифта */
+        cursor: pointer; /* Курсор при наведении */
+        outline: none; /* Убираем обводку при фокусировке */
+    }
+</style>
+
+<body>
+    
+    <form>
+        
+        <table>
+            <tr>
+                <td width="50%">
+
+                    <div class="select-wrapper">
+                        <label for="mySelect">Выберите поле для сортировки:</label>
+                        <select id="mySelect" name="field">
+                            <option value="id">номер</option>
+                            <option value="citata">цитата</option>
+                            <option value="author">автор</option>
+                        </select>
+                    </div>
+
+                </td>
+                <td>
+                    <br>Укажите направление сортировки:
+                    <br><input type="radio" name="direct" value="asc" checked /> по возрастанию
+                    <br><input type="radio" name="direct" value="desc" /> по убыванию
+                    <br><br> <!-- radio передаётся только выбранная value -->
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="right">
+                    <button 
+                        type="submit" 
+                        class="btn"
+                        formaction="/sortBy" 
+                        formmethod="get">
+                        Получить данные
+                    </button>
+                </td>
+            </tr>
+        </table>
+
+    </form>
+
+    <br><hr>
+
+    <form>
+        
+        <table>
+            <tr>
+                <td width="50%">
+                    <div class="select-wrapper">
+                        <label for="numberSelect">Выберите номер (0-99):</label>
+                        <input type="number" 
+                               id="numberSelect" 
+                               name="number" 
+                               min="0" 
+                               max="99" 
+                               value="1" 
+                               step="1">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="right">
+                    <button 
+                        type="submit" 
+                        class="btn"
+                        formaction="/getByNumber" 
+                        formmethod="get">
+                        Получить данные
+                    </button>
+                </td>
+            </tr>
+        </table>
+
+    </form>
+
+    <br><hr>
+
+    <table>
+        <tr>
+            <td>
+                <div class='citata'> POST </div>
+            </td>
+        </tr>
+    </table>
+    
+</body>

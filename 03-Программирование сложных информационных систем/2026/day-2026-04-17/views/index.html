@@ -1,0 +1,56 @@
+<style>
+    .block {
+        font-size: 40px;
+        height: 25%;
+        width: 100%;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #39c969;
+    }
+    .inp {
+        width: 250px;
+        height: 40px;
+        font-size:1.1em;
+    }
+    .btn { 
+        color:#FFFFFF;
+        cursor:pointer;
+        font-size:1.1em;
+        border: solid 1px #eb4b4b;
+        border-radius:3px;
+        background:#eb4b4b;
+        width: 250px;
+        height: 55px;
+        margin: 0px 3px;
+        padding: 0px 0px;
+    }
+    .btn:hover {
+        background:#ffffff;
+        color: #000;
+        border: solid 1px #eb4b4b;
+    }
+</style>
+
+<center>
+    <form>
+        <input 
+            type="text" 
+            class="inp"
+            name="number" 
+            value="" 
+            placeholder="1"  required /> <br>
+        <button 
+            type="submit" 
+            class="btn"
+            formaction="/getByNumber" 
+            formmethod="get">
+            Получить по Номеру
+        </button>
+    </form>
+
+</center>
+<br>
+
+<div class='block'> POST </div>

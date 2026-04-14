@@ -1,0 +1,10 @@
+{
+    "develop": {
+        "HOST": "localhost",
+        "PORT": 3000
+    },
+    "deploy": {
+        "HOST": "https://mysite.com",
+        "PORT": 4567
+    }
+}

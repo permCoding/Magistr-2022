@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <title>Users</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="shortcut icon" href="/css/favicon.ico" />
+</head>
+
+<body>
+    <div class="indent-div">
+
+    <div>
+        <h3>Абитуриенты (всего - <%= arrayUsers.length %>)</h3>
+        
+        <% arrayUsers.forEach( user => { %>
+            <% let listClass = (+user.rating > 190)? 'list-green': 'list-red'; %>
+            <li class="<%= listClass %>">
+                <%= user.lastName %> 
+                <%= user.firstName %> 
+                <%= user.rating %>
+            </li>
+        <% }); %>
+    
+    </div>
+
+    <div>
+        <h3>Сортировать (Фамилия):</h3>
+        <a href="http://localhost:3000/order/lastName/asc">
+            <button class="green">по возрастанию</button>
+        </a>
+        <a href="http://localhost:3000/order/lastName/desc">
+            <button class="green">по убыванию</button>
+        </a>
+    </div>
+    
+    <div>
+        <h3>Сортировать (Рейтинг):</h3>
+        <a href="http://localhost:3000/order/rating/asc">
+            <button class="green">по возрастанию</button>
+        </a>
+        <a href="http://localhost:3000/order/rating/desc">
+            <button class="green">по убыванию</button>
+        </a>
+    </div>
+
+    <br><br>
+    <div>
+        <a href="http://localhost:3000/">
+            <button class="blue">НА ГЛАВНУЮ</button>
+        </a>
+    </div>
+    
+    </div>
+</body>
+</html>

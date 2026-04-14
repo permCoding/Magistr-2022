@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <title>Users</title>
+    <link rel="stylesheet" type="text/css" href="/css/style-08.css" />
+    <link rel="shortcut icon" href="/css/favicon.ico" />
+</head>
+
+<body>
+    <div>
+        <a href="http://localhost:3000/">
+            <button class="blue">НА ГЛАВНУЮ</button>
+        </a>
+    </div>
+
+    <form>
+        
+        <table>
+            <tr>
+                <td width="50%">
+
+                    <div class="select-wrapper">
+                        <label for="mySelect">Поле для сортировки:</label>
+                        <select id="mySelect" name="field">
+                            <option value="lastName">Фамилия</option>
+                            <option value="firstName">Имя</option>
+                            <option value="rating">Рейтинг</option>
+                        </select>
+                    </div>
+
+                </td>
+                <td>
+                    <br>Направление сортировки:
+                    <br><input type="radio" name="direct" value="asc" checked /> по возрастанию
+                    <br><input type="radio" name="direct" value="desc" /> по убыванию
+                    <br><br> <!-- radio передаётся только выбранная value -->
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="right">
+                    <button 
+                        type="submit" 
+                        class="btn"
+                        formaction="/order" 
+                        formmethod="get">
+                        Получить данные
+                    </button>
+                </td>
+            </tr>
+        </table>
+
+    </form>
+
+    <div>
+        <div class="citata">
+        <% if (field) { %>
+            
+            <h3>Абитуриенты (<%= field %>; <%= direct %>):</h3>
+        <% } else { %>
+            <h3>Абитуриенты:</h3>
+        <% } %>
+        </div>
+
+        <table>
+        <% arrayUsers.forEach( user => { %>
+            <tr>
+                <% let listClass = (+user.rating > limit)? 'list-green': 'list-red'; %>
+                <td> <%= user.lastName %>  </td>
+                <td> <%= user.firstName %>  </td>
+                <td class="<%= listClass %>"> <%= user.rating %> </td>
+            </tr>
+        <% }); %>
+        </table>
+        
+    </div>
+
+</body>
+</html>

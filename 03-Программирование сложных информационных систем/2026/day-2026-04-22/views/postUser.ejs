@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <title>Abiturs</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="shortcut icon" href="/css/favicon.ico" />
+</head>
+
+<body>
+
+    <div>
+        <h3>Добавить абитуриента</h3>
+        <!-- 
+            в каждом объекте на web-форме должен быть атрибут
+            "name", по которому и будет добавляться поле
+            в объект req.body - из него уже на строне сервера
+            можно будет получить значение, например:
+            если на web-форме - name="lastName" 
+            то в объекте - req.body.lastName = "____"
+        -->
+
+        <form>
+            <input class="value"
+                type="text" 
+                name="lastName" 
+                minlength="1" maxlength="255" size="32" required
+                placeholder="Фамилия" /> <br> <!-- тип данных текст -->
+
+            <input class="value"
+                type="text" 
+                name="firstName" 
+                minlength="1" maxlength="255" size="32" required
+                placeholder="Имя" /> <br> <!-- тип данных текст -->
+
+            <input class="value" 
+                type="number"  
+                name="rating" 
+                placeholder="Рейтинг"
+                value="0" /> <br> <!-- тип данных число -->
+
+            <br><br>
+ 
+            <button class="green"
+                formaction="/postUser" 
+                formmethod="post" 
+                type="submit">
+                Добавить
+            </button>
+        </form>
+
+    </div>
+
+</body>
+</html>

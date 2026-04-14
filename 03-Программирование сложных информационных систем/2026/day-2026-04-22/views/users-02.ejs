@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <title>Users</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="shortcut icon" href="/css/favicon.ico" />
+    <style>
+        .indent-div {
+            margin-left: 150px;   /* Сдвигаем весь блок вправо на 50px */
+            width: 400px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="indent-div">
+        <h3>Абитуриенты</h3>
+
+        <p><%= lastName %> <%= firstName %></p>
+        <strong>
+            <% if (rating >= 180) { %>
+                <p style="color: green;"><%= rating %></p>
+            <% } else {%>
+                <p style="color: red;"><%= rating %></p>
+            <% } %>
+        </strong>
+    
+    </div>
+
+</body>
+</html>

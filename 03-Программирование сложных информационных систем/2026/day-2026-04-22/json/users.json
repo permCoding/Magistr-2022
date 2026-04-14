@@ -1,0 +1,42 @@
+[
+  {
+    "firstName": "Иван",
+    "lastName": "Мимов",
+    "rating": "185"
+  },
+  {
+    "firstName": "Женя",
+    "lastName": "Попадалова",
+    "rating": "192"
+  },
+  {
+    "firstName": "Алиса",
+    "lastName": "Селезнёва",
+    "rating": "188"
+  },
+  {
+    "firstName": "Ирина",
+    "lastName": "Кумова",
+    "rating": "204"
+  },
+  {
+    "firstName": "Макс",
+    "lastName": "Сохов",
+    "rating": "200"
+  },
+  {
+    "firstName": "Игорь",
+    "lastName": "Икотов",
+    "rating": "201"
+  },
+  {
+    "firstName": "Федя",
+    "lastName": "Федотов",
+    "rating": "187"
+  },
+  {
+    "firstName": "Фатима",
+    "lastName": "Забывалова",
+    "rating": "192"
+  }
+]
