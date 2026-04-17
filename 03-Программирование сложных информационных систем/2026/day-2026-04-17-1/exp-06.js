@@ -1,24 +1,38 @@
 const express = require('express');
-const ejs = require('ejs'); // npm i ejs
 const HOST = 'localhost', PORT = 3000;
+const log = console.log;
+
+const menu = `
+<a href="http://localhost:3000/dt">Обновить дату/время</a> <br>
+<a href="http://localhost:3000/">НА ГЛАВНУЮ</a> <br>
+<br>
+Дата - @dt@ <br>
+Время - @tm@ <br>
+<br>
+<input type="text" name="inputDate" placeholder="Дата" value="@dt@"> <br>
+<input type="text" name="inputTime" placeholder="Время" value="@tm@">
+`;
 
 const app = express();
 
-app.set('view engine', 'ejs'); // нужен когда НЕ указано расширение *.ejs
-   
 app.get('/dt', (req, res) => {
     const now = new Date();
     const obj = {
         "date": now.toLocaleDateString(),
         "time": now.toLocaleTimeString()
     }
-    res.set('Content-Type', 'text/html; charset=utf-8');
-    res.render('date.ejs', obj);
+    res.type('text/html');
+    res.write(menu
+        .replace(/@dt@/g, obj.date)
+        .replace(/@tm@/g, obj.time)
+    );
+    res.send();
 });
 
 app.get('/', (req, res) => {
-    res.set('Content-Type', 'text/html; charset=utf-8');
-    res.render('date.ejs', { "date": "", "time": "" });
+    res.type('text/html');
+    res.write(menu);
+    res.send();
 });
 
-app.listen(PORT, HOST, () => console.log(`http://${HOST}:${PORT}/`));
+app.listen(PORT, HOST, () => log(`http://${HOST}:${PORT}/`));

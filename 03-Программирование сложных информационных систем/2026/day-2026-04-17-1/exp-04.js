@@ -1,38 +1,46 @@
-const express = require('express');
+const express = require('express');  // npm i express
 const HOST = 'localhost', PORT = 3000;
+const avtor = "Александр Смирнов";
 const log = console.log;
-
-const menu = `
-<a href="http://localhost:3000/dt">Обновить дату/время</a> <br>
-<a href="http://localhost:3000/">НА ГЛАВНУЮ</a> <br>
-<br>
-Дата - @dt@ <br>
-Время - @tm@ <br>
-<br>
-<input type="text" name="inputDate" placeholder="Дата" value="@dt@"> <br>
-<input type="text" name="inputTime" placeholder="Время" value="@tm@">
-`;
 
 const app = express();
 
-app.get('/dt', (req, res) => {
+app.use((req, res, next) => { // middleware - pipline 
+    log(req.method, req.url);
+    next();
+});
+
+app.get(['/date','/dt'], (req, res) => {
     const now = new Date();
     const obj = {
         "date": now.toLocaleDateString(),
-        "time": now.toLocaleTimeString()
+        "time": now.toLocaleTimeString(),
+        avtor
     }
+    res.json(obj);
+});
+
+app.get(['/time','/tm'], (req, res) => {
+    const now = new Date();
+    const tm = now.toLocaleTimeString();   // "15:30:45"
     res.type('text/html');
-    res.write(menu
-        .replace(/@dt@/g, obj.date)
-        .replace(/@tm@/g, obj.time)
-    );
-    res.send();
+    res.send(`текущее время: <br> ${tm}`);
+});
+
+app.get(['/info','/in'], (req, res) => {
+    res.type('text/plain');
+    res.send(`Автор проекта: \n\t${avtor}`);
 });
 
 app.get('/', (req, res) => {
-    res.type('text/html');
-    res.write(menu);
-    res.send();
+    res.send('GET/');
 });
 
 app.listen(PORT, HOST, () => log(`http://${HOST}:${PORT}/`));
+// Ctrl+C для остановки сервера
+
+/*
+curl -X GET http://localhost:3000/dt
+curl -X GET http://localhost:3000/tm
+curl -X GET http://localhost:3000/in 
+*/

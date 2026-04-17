@@ -11,17 +11,6 @@ app.listen(3000);  // http://localhost:3000/
 // Ctrl+C для остановки сервера
 
 /*
-Задание 1:
-  - при каждой перезагрузки страницы
-  - вывести на экран браузера
-  - новое случайное сообщение
-  - из файла ./json/statements.json
-*/
-
-
-
-
-/*
 http://tasks.1gb.ru:42089/104
 http://tasks.1gb.ru/104
 https://www.chitai-gorod.ru/catalog/books/dlya-2-klassa-111107

@@ -1,62 +1,40 @@
 const express = require('express');  // npm i express
 const HOST = 'localhost', PORT = 3000;
-const avtor = "Александр Смирнов";
 const log = console.log;
-
-const menu = `
-<a href="http://localhost:3000/dt">Узнать дату</a> <br>
-<a href="http://localhost:3000/tm">Узнать время</a> <br>
-<a href="http://localhost:3000/in">Информация</a> <br>
-<a href="http://localhost:3000/">НА ГЛАВНУЮ</a> <br>
-<br>`;
 
 const app = express();
 
-app.use((req, res, next) => { // middleware - pipline 
-    log(req.method, req.url);
-    next();
-});
-
-app.get(['/date','/dt'], (req, res) => {
+app.get('/date', (req, res) => {
+    log(req.url);
     const now = new Date();
-    const obj = {
-        "date": now.toLocaleDateString(),
-        "time": now.toLocaleTimeString(),
-        avtor
-    }
-    res.type('text/html');
-    res.write(menu);
-    res.write(JSON.stringify(obj, null, 2));
-    res.send();
+    const dt = now.toLocaleDateString();   // "17.04.2026"
+    res.send(`текущая дата ${dt}`);
 });
 
-app.get(['/time','/tm'], (req, res) => {
+app.get('/time', (req, res) => {
+    log(req.url);
     const now = new Date();
     const tm = now.toLocaleTimeString();   // "15:30:45"
-    res.type('text/html');
-    res.write(menu);
-    res.write(`текущее время: <br> ${tm}`);
-    res.send();
-});
-
-app.get(['/info','/in'], (req, res) => {
-    res.type('text/plain');
-    res.write(menu);
-    res.write(`Автор проекта: \n\t${avtor}`);
-    res.send();
+    res.send(`текущее время ${tm}`);
 });
 
 app.get('/', (req, res) => {
-    res.type('text/html');
-    res.write(menu);
-    res.send();
+    log(req.url);
+    res.send('GET/');
 });
 
 app.listen(PORT, HOST, () => log(`http://${HOST}:${PORT}/`));
-// Ctrl+C для остановки сервера
 
-/*
-curl -X GET http://localhost:3000/dt
-curl -X GET http://localhost:3000/tm
-curl -X GET http://localhost:3000/in 
+/*  
+Задание 1:
+- при загрузке страницы вывести на экран браузера
+- первое сообщение из файла: ./json/statements.json
+
+Задание 2:
+- пользователь может указать номер сообщения, которое нужно
+- вывести на экран браузера из файла: ./json/statements.json
+
+Задание 3:
+- при каждой перезагрузке страницы вывести на экран браузера
+- новое случайное сообщение из файла: ./json/statements.json
 */
