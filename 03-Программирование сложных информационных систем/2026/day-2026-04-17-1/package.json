@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "ejs": "^5.0.2",
+    "express": "^5.2.1"
+  }
+}

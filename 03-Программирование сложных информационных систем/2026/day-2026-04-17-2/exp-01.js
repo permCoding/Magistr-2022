@@ -2,11 +2,6 @@ const express = require('express');  // npm i express
 
 const app = express();
 
-app.get('/', (req, res) => {
-  console.log(req);
-  res.send('server');
-});  // эндпойнт: GET /         => http://localhost:3000/
-
 app.listen(3000);
 
 /*    http://localhost:3000/
