@@ -1,11 +1,18 @@
-const express = require('express');
+const express = require('express'); // npm i express
 
 const app = express();
 
-app.get('/', (req, res) => {
-  console.log('GET');
-  res.send('server');
-});  // эндпойнт: GET по пути /
+// const func = (req, res) => {
+//   console.log('GET');
+//   res.send('server');
+// }
+
+function func(req, res) {
+    console.log('-GET-');
+    res.send('<b>server</b>');
+}
+
+app.get('/', func);  // эндпойнт: GET по пути /
 
 app.listen(3000);  // http://localhost:3000/
 // Ctrl+C для остановки сервера

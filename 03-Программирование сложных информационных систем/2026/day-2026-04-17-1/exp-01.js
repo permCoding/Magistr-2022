@@ -1,4 +1,4 @@
-const express = require('express');  // npm i express
+const express = require('express');
 const HOST = 'localhost', PORT = 3000;
 const log = console.log;
 
@@ -22,7 +22,8 @@ const getAnswer_2 = (param) => {
 
 const app = express();
 
-app.get('/:param', (req, res) => {
+app.get('/:param/:num/:age', (req, res) => { // http://localhost:3000/weight/10/28
+    log(req.params);
     log(req.params.param);
 
     // if (req.params.param == 'date') {
@@ -40,8 +41,8 @@ app.get('/:param', (req, res) => {
 
     // let answer = req.params.param == 'date'? 'Дата:' + now.toLocaleDateString() : 'Время: ' + now.toLocaleTimeString();
 
-    let answer = getAnswer_1(req.params.param);
-
+    // let answer = getAnswer_1(req.params.param);
+    let answer = 'answer';
     res.send(answer);
 });
 
