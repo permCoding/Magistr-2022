@@ -44,6 +44,10 @@ app.get('/:id', (req, res) => {
 app.listen(PORT, HOST, () => log(`сервер: http://${HOST}:${PORT}/`));
 
 /*
+curl http://localhost:3000/13
+curl -X GET http://localhost:3000/users 
+
+
 два типа модулей:
 - js - CommonJS - require/export
 - mjs - ECMAScript - import/export

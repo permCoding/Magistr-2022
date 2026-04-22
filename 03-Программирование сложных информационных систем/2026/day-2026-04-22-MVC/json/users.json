@@ -50,9 +50,27 @@
     "rating": "192"
   },
   {
-    "id": "9",
+    "id": "19",
     "firstName": "Андрей",
     "lastName": "Беляков",
-    "rating": "194"
+    "rating": "199"
+  },
+  {
+    "id": 12,
+    "firstName": "Федя",
+    "lastName": "Федотов",
+    "rating": "201"
+  },
+  {
+    "id": 11,
+    "firstName": "Костя",
+    "lastName": "Федотов",
+    "rating": "201"
+  },
+  {
+    "id": 20,
+    "firstName": "Гриша",
+    "lastName": "Симонов",
+    "rating": "222"
   }
 ]
