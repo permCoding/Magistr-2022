@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <title>Users</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="shortcut icon" href="/css/favicon.ico" />
+</head>
+
+<body>
+    <div class="citata">
+        <a href="/users">
+            <button class="blue">НА ГЛАВНУЮ</button>
+        </a>
+    </div>
+
+    <form>        
+        <table>
+            <tr>
+                <td width="36%">
+                    <input type="hidden" name="userId" value="<%=id%>" />
+                    <input type="text" name="lastName" value="<%=lastName%>" placeholder="Фамилия" />
+                </td>
+                <td width="36%">
+                    <input type="text" name="firstName" value="<%=firstName%>" placeholder="Имя" />
+                </td>
+                <td width="28%">
+                    <input type="text" name="rating" value="<%=rating%>" placeholder="Рейтинг" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" align="right">
+                    <button 
+                        type="submit" 
+                        class="btn"
+                        formaction="/user/<%=btnDo%>" 
+                        formmethod="post">
+                        СОХРАНИТЬ
+                    </button>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>

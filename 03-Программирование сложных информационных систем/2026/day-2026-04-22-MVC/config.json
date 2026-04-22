@@ -1,0 +1,15 @@
+{
+    "appName": "Express",
+    "dirJSON": "./json/",
+    "fileName": "users.json",
+    "hosting": {
+        "development": {
+            "HOST": "localhost",
+            "PORT": 3000
+        },
+        "production": {
+            "HOST": "0.0.0.0",
+            "PORT": 8080
+        }
+    }
+}

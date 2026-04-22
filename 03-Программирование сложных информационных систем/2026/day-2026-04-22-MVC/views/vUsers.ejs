@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <title>Users</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="shortcut icon" href="/css/favicon.ico" />
+</head>
+
+<body>
+    <div class="citata">
+        <a href="/users">
+            <button class="blue">НА ГЛАВНУЮ</button>
+        </a>
+    </div>
+
+    <form>
+        
+        <table>
+            <tr>
+                <td width="50%">
+
+                    <div class="select-wrapper">
+                        <label for="mySelect">Поле для сортировки:</label>
+                        <select id="mySelect" name="field">
+                            <option value="lastName" <%= field === 'lastName' ? 'selected' : '' %> > Фамилия </option>
+                            <option value="firstName" <%= field === 'firstName' ? 'selected' : '' %> > Имя </option>
+                            <option value="rating" <%= field === 'rating' ? 'selected' : '' %> > Рейтинг </option>
+                        </select>
+                    </div>
+
+                </td>
+                <td>
+                    <br>Направление сортировки:
+                    <% let descValue = direct == 'asc'? '': 'checked' %>
+                    <div class="radio">
+                    <label>
+                        <input type="radio" name="direct" value="asc" checked /> по возрастанию
+                    </label><br>
+                    <label>
+                        <input type="radio" name="direct" value="desc" <%= descValue %> /> по убыванию
+                    </label>
+                    </div> <!-- radio передаётся только выбранная value -->
+                    <br>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="right">
+                    <button 
+                        type="submit" 
+                        class="btn"
+                        formaction="/users/order" 
+                        formmethod="post">
+                        Получить данные
+                    </button>
+                </td>
+            </tr>
+        </table>
+
+    </form>
+
+    <div>
+        <div class="citata">
+        <% if (field) { %>
+            
+            <h3>Абитуриенты (<%= field %>; <%= direct %>):</h3>
+        <% } else { %>
+            <h3>Абитуриенты:</h3>
+        <% } %>
+        </div>
+
+        <table>
+        <% arrayUsers.forEach( user => { %>
+            <tr>
+                <td width="6%">
+                    <form action="/user/editUser" method="POST">
+                        <input type="hidden" name="userId" value="<%=user.id%>" />
+                        <button type="submit">EDIT</button>
+                    </form>
+                </td>
+                <% let listClass = (+user.rating > limit)? 'list-green': 'list-red'; %>
+                <td width="36%"> <%= user.lastName %>  </td>
+                <td width="36%"> <%= user.firstName %>  </td>
+                <td class="<%= listClass %>"> <%= user.rating %> </td>
+            </tr>
+        <% }); %>
+        </table>
+        
+    </div>
+    
+    <div class="citata">
+        <a href="/user/addUser">
+            <button class="blue">ДОБАВИТЬ</button>
+        </a>
+    </div>
+
+    <div class="citata">
+        <a href="/users/saveUsers">
+            <button class="green">СОХРАНИТЬ</button>
+        </a>
+    </div>
+
+</body>
+</html>

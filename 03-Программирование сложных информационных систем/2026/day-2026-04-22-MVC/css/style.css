@@ -1,0 +1,143 @@
+body {
+    background: url(../css/bg_grid.png) repeat ;
+    background-color: #f6fff5;
+    color: rgb(16, 45, 28);
+    font-family: 'Courier New', Courier, monospace;
+    font-size:1.4em;
+    margin-top: 25px;
+}
+table {
+    margin: 0 auto; /* Выравнивание по центру */
+    border: 0px solid black; /* Пример границы для таблицы */
+    width: 60%; /* Ширина таблицы (необязательно) */
+}
+tr:nth-child(odd) { 
+    background-color: #CFEFDF; 
+}
+tr:nth-child(even) { 
+    background-color: #CFE5DF; 
+}
+th {
+    background-color: bisque;
+}
+td {
+    text-align: center;
+    position: relative;
+    vertical-align: middle;
+    margin: auto;
+    height: 32px;
+}
+td.rating {
+    height: 36px;
+    font-weight: bolder;
+    color: darkgreen;
+    font-family: Amstelvar-Roman, serif;
+}
+td.item {
+    height: 36px;
+    text-align: left;
+    padding-left: 15px;
+}
+.citata {
+    font-size: 1.0em;
+    align-items: center;
+    justify-content: center;
+    color: #567572;
+    margin-left: 15%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.inp {
+    width: 250px;
+    height: 40px;
+    font-size:1.1em;
+}
+.btn { 
+    color:#FFFFFF;
+    cursor:pointer;
+    font-size:1.1em;
+    border: solid 1px #eb4b4b;
+    border-radius:5px;
+    background:#eb4b4b;
+    width: 250px;
+    height: 55px;
+    margin: 0px 3px;
+    padding: 0px 0px;
+}
+.btn:hover {
+    background:#ffffff;
+    color: #000;
+    border: solid 1px #eb4b4b;
+}
+.select-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 300px; /* Ширина обертки */
+}
+.select-wrapper select {    /* Стили для самого селекта */
+    appearance: none; /* Убираем стандартный стиль браузера */
+    -webkit-appearance: none; /* Для Safari */
+    -moz-appearance: none; /* Для Firefox */
+    width: 100%; /* Ширина будет на всю обертку */
+    padding: 10px; /* Внутренний отступ */
+    border: 1px solid #ccc; /* Цвет и стиль рамки */
+    border-radius: 5px; /* Скругленные углы */
+    background-color: #fff; /* Фоновый цвет */
+    font-size: 16px; /* Размер шрифта */
+    cursor: pointer; /* Курсор при наведении */
+    outline: none; /* Убираем обводку при фокусировке */
+}
+.green { 
+    color:#FFFFFF;
+    cursor:pointer;
+    font-size:0.9em;
+    font-weight: 600;
+    font-family: serif;
+    border: solid 2px #3acc88;
+    border-radius:6px;
+    background:#3acc88;
+    width: 180px;
+    height: 38px;
+    margin-top: 5px;
+    padding: 5px 11px;
+}
+.green:hover {
+    background:#dfe;
+    color: #000;
+    border: solid 2px #3acc88;
+}
+.blue { 
+    color:#eeeeff;
+    cursor:pointer;
+    font-size:0.9em;
+    font-weight: 600;
+    font-family: serif;
+    border: solid 2px #3a68cc;
+    border-radius:6px;
+    background:#3a68cc;
+    width: 180px;
+    height: 38px;
+    margin-top: 5px;
+    padding: 5px 11px;
+}
+.blue:hover {
+    background:rgb(230, 241, 255);
+    color: #206;
+    border: solid 2px #206;
+}
+.list-red {
+    color: rgb(181, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: 600;
+}
+.list-green {
+    color: rgb(0, 150, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: 600;
+}
+.radio {
+    text-align: left;
+    margin-left: 40px;
+}

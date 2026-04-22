@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "firstName": "Иван",
+    "lastName": "Мимов",
+    "rating": "185",
+    "btnDo": "updateUser",
+    "_locals": {}
+  },
+  {
+    "id": 2,
+    "firstName": "Женя",
+    "lastName": "Попадалова",
+    "rating": "192"
+  },
+  {
+    "id": 3,
+    "firstName": "Алиса",
+    "lastName": "Селезнёва",
+    "rating": "188"
+  },
+  {
+    "id": 4,
+    "firstName": "Ирина",
+    "lastName": "Кумова",
+    "rating": "204"
+  },
+  {
+    "id": 5,
+    "firstName": "Макс",
+    "lastName": "Сохов",
+    "rating": "200"
+  },
+  {
+    "id": 6,
+    "firstName": "Игорь",
+    "lastName": "Икотов",
+    "rating": "201"
+  },
+  {
+    "id": 7,
+    "firstName": "Федя",
+    "lastName": "Федотов",
+    "rating": "187"
+  },
+  {
+    "id": 8,
+    "firstName": "Фатима",
+    "lastName": "Забывалова",
+    "rating": "192"
+  },
+  {
+    "id": "9",
+    "firstName": "Андрей",
+    "lastName": "Беляков",
+    "rating": "194"
+  }
+]

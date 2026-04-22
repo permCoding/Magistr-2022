@@ -1,0 +1,162 @@
+body {
+    background: url(../css/bg_grid.png) repeat ;
+    background-color: #f6fff5;
+    color: rgb(16, 45, 28);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    margin-top: 25px;
+}
+div {
+    text-align: left;
+}
+.list-red {
+    color: rgb(181, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: 600;
+}
+.list-green {
+    color: rgb(0, 150, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: 600;
+}
+table {
+    width: 70%;
+    margin: auto;
+}
+tr:nth-child(odd) { 
+    background-color: #CFEFDF; 
+}
+tr:nth-child(even) { 
+    background-color: #CFE5DF; 
+}
+th {
+    background-color: bisque;
+}
+td {
+    text-align: center;
+    position: relative;
+    vertical-align: middle;
+    margin: auto;
+}
+td.id {
+    height: 36px;
+    font-weight: bolder;
+    color: darkgreen;
+    font-family: Amstelvar-Roman, serif;
+}
+td.item {
+    height: 36px;
+    text-align: left;
+    padding-left: 15px;
+}
+a { 
+    color: #21665f;
+    text-decoration: none;
+}
+a:visited {
+    color: #21665f;
+}
+a:hover {
+    color: rgb(168, 25, 82);
+    font-weight: bold;
+    text-decoration: none;
+}
+textarea {
+    width: 70%;
+    color: initial;
+    display: inline-block;
+    background-color: rgb(236, 250, 232);
+    resize: vertical;
+    cursor: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    font: 500 14px "Courier New";
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(169, 169, 169);
+    padding: 2px;
+}
+.green { 
+    color:#FFFFFF;
+    cursor:pointer;
+    font-size:0.9em;
+    font-weight: 600;
+    font-family: serif;
+    border: solid 2px #3acc88;
+    border-radius:6px;
+    background:#3acc88;
+    width: 180px;
+    height: 38px;
+    margin-top: 5px;
+    padding: 5px 11px;
+}
+.green:hover {
+    background:#dfe;
+    color: #000;
+    border: solid 2px #3acc88;
+}
+.blue { 
+    color:#eeeeff;
+    cursor:pointer;
+    font-size:0.9em;
+    font-weight: 600;
+    font-family: serif;
+    border: solid 2px #3a68cc;
+    border-radius:6px;
+    background:#3a68cc;
+    width: 180px;
+    height: 38px;
+    margin-top: 5px;
+    padding: 5px 11px;
+}
+.blue:hover {
+    background:rgb(230, 241, 255);
+    color: #206;
+    border: solid 2px #206;
+}
+.value { 
+    color:#000000;
+    font-size: 1.0em;
+    border: solid 1px #3acc88;
+    border-radius: 6px;
+    background: #cedad4;
+    width: 220px;
+    height: 36px;
+    margin-top: 5px;
+    padding: 0px 9px;
+}
+.td-del { 
+    color:#FFFFFF;
+    cursor:pointer;
+    font-size:0.9em;
+    border: solid 1px #eb4b4b;
+    border-radius:3px;
+    background:#eb4b4b;
+    width: 90px;
+    height: 10px;
+    margin-top: 0px;
+    padding: 0px 0px;
+}
+.del { 
+    color:#FFFFFF;
+    cursor:pointer;
+    font-size:0.9em;
+    border: solid 1px #eb4b4b;
+    border-radius:3px;
+    background:#eb4b4b;
+    width: 30px;
+    height: 27px;
+    margin: 0px 3px;
+    padding: 0px 0px;
+}
+.del:hover {
+    background:#ffffff;
+    color: #000;
+    border: solid 1px #eb4b4b;
+}
+.indent-div {
+    margin-left: 150px;
+    width: 400px;
+}
